@@ -9,8 +9,8 @@ class LeapYear
         Scanner sc=new Scanner(System.in);
       int t=sc.nextInt();
       if(t%400==0 || t%4==0 &&t%100!=0)
-        System.out.println("Leap Year");
+        System.out.println("Yes! This is Leap Year");
       else
-        System.out.println("Not a Leap Year");
+        System.out.println(" Oh! This is not a Leap Year");
     }
 }

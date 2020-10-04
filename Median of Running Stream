@@ -1,0 +1,87 @@
+QUESTION:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You are given a running data stream of n integers. You read all integers from that running data stream and find effective median of elements read so far in efficient way. All numbers are unique in the datastream. Print only the integer part of the median.
+
+Input Format
+First line contains integer t as number of test cases. Each test case contains following input. First line contains integer n which represents the length of the data stream and next line contains n space separated integers.
+
+Constraints
+1 < t < 100
+1< n < 10000
+
+Output Format
+Print the effective median of running data stream..
+
+Sample Input
+1
+6
+5 15 1 3 2 8
+Sample Output
+5 10 5 4 3 4
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+     ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    /* code here */
+    int t;
+    cin>>t;
+    while(t-->0){
+        int n;
+        cin>>n;
+        priority_queue<int>maxheap;
+        priority_queue<int ,vector<int>,greater<int>>minheap;
+        int d;
+        cin>>d;
+        maxheap.push(d);
+        int median = d;
+        cout<<median<<" ";
+        while(n-->1){
+            cin>>d;
+            if(maxheap.size()>minheap.size()){
+               if(d<median){
+                   minheap.push(maxheap.top());
+                   maxheap.pop();
+                   maxheap.push(d);
+               }
+               else{
+                   minheap.push(d);
+               }
+               median=(maxheap.top()+minheap.top())/2;
+            }
+
+                else if(maxheap.size()==minheap.size()){
+                    if(d<median){
+                        maxheap.push(d);
+                        median=maxheap.top();
+                    }
+                    else{
+                         minheap.push(d);
+                        median=minheap.top();
+
+                    }
+                }
+                else{
+                    if(d>median){
+                   maxheap.push(minheap.top());
+                   minheap.pop();
+                   minheap.push(d);
+               }
+               else{
+                   maxheap.push(d);
+               }
+               median=(maxheap.top()+minheap.top())/2;
+                }
+                 cout<<median<<" ";
+            }
+           
+         cout<<endl;   
+        }
+
+    return 0;
+}

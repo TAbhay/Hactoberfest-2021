@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery-2.2.3.min.js"></script>
+	<!-- datepicker -->
+	<script src="bootstrap-datepicker.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div class="container">
+<center>
+	<h1>DatePicker Example</h1>
+	<p>Date: <input type="text" id="datepicker"></p>
+</center>
+ </div>
+</body>
+</html>
+
+
+

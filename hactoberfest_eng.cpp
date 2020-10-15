@@ -17,3 +17,14 @@ int main()
     cout<<"values of variables i is:"<<i;
   }
 }
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  cout<<"hello world!";
+  return 0;
+}
+
+  

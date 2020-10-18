@@ -1,11 +1,13 @@
-num=int(input("Enter a positive integer to be reversed: "))    #taking an integer input from the user
-temp=num                                                         #storing the input in a temporary variable named temp
-reverse=0
-if num>0:
-    while(temp>0):
-        rem=temp%10
-        reverse=reverse*10+(rem)
-        temp=int(temp/10)
-    print("Reverse of",num,"=",reverse)
-else:
-    print("Please enter a positive number!")
+#Reversing any string of number through recursion.
+#taking any integer value and storing in Num variable.
+Num = int(input("Please Enter any Number: "))
+Res = 0                          #taking Res as temperory variable.
+def Result_Int(Num):
+    global Res
+    if(Num > 0):
+        Rem = Num %10            #Rem for Reminder
+        Res = (Res*10) + Rem
+        Result_Int(Num //10)
+    return Res
+ Res= Result_Int(Num)
+print("n Reverse of entered number is = %d" %Res)

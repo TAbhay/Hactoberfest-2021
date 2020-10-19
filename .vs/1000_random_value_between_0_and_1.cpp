@@ -1,8 +1,8 @@
-//This code generates random value between 0 and 1 
+//This code generates random value between 0 and 1
 //in this code we are checking how many times out of 1000 times generated, the
 //value is lying between 0.0 to 0.1, 0.1 to 0.2, 0.2 to 0.3, 0.3 to 0.4, 0.4 to 0.5,
 //0.5 to 0.6, 0.6 to 0.7, 0.7 to 0.8, 0.8 to 0.9, 0.9 to 1.0
-//displaying the number of times it 
+//displaying the number of times it
 
 #include <iostream>
 #include <stdlib.h>

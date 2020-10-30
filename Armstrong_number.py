@@ -1,20 +1,20 @@
-num = 1634
+num = int(input("Enter any number"))
 
 # Changed num variable to string, 
 # and calculated the length (number of digits)
-order = len(str(num))
+val = len(str(num))
 
 # initialize sum
 sum = 0
 
 # find the sum of the cube of each digit
-temp = num
-while temp > 0:
+temp = num                    #temp to store value of num
+while (temp > 0):
    digit = temp % 10
-   sum += digit ** order
+   sum += digit ** val
    temp //= 10
 
-# display the result
+#to show the output
 if num == sum:
    print(num,"is an Armstrong number")
 else:

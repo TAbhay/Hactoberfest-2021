@@ -1,6 +1,8 @@
+/* Header Files */
 #include <bits/stdc++.h> 
 using namespace std; 
-  
+
+/* swap function */
 void swap(int *xp, int *yp)  
 {  
     int temp = *xp;  

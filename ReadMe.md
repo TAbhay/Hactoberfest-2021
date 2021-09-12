@@ -22,7 +22,7 @@ Here are 3 quick and painless ways to contribute to this project:
 * There are various sections like CP , Development , Interview etc , Add valuable resources
 
 
-# For Begginers
+# For Beginners
 1) Visit & Learn 
 [Tutorial Github ](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
 2) Copy the template and write hacktoberfest in your language

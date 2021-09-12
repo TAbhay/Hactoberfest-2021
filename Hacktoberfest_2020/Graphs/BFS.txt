@@ -1,0 +1,83 @@
+#include <iostream>
+
+using namespace std;
+
+class queue{
+int front;
+int rear;
+int size;
+int *q;
+public:
+    queue(){front=rear=-1;q=new int[10];}
+    queue(int size){front =rear=-1;this->size=size;q=new int[this->size];}
+    void enqueue(int x);
+    int dequeue();
+    int Isempty();
+
+};
+void queue:: enqueue(int x){
+if(rear==size-1){
+    cout<<"full";
+   }
+   else {
+    rear++;
+    q[rear]=x;
+
+}
+}
+int queue:: Isempty(){
+    if(front==rear){
+        return 0;
+    }
+    else 1;
+    }
+
+int queue::dequeue(){int x;
+if(front==rear){
+    cout<<"Empty";
+}
+else{
+    front++;
+    x=q[front];
+
+}
+return x;
+
+}
+void Breadth_first_Search(int u,int A[8][8],int n){
+    queue qt(8); int k;
+int visited[8]={0};
+cout<<u<<endl;
+visited[u]=1;
+qt.enqueue(u);
+while(!qt.Isempty()){
+        k=qt.dequeue();
+    for(int i=1;i<=n;i++){
+        if(A[k][i]==1 && visited[i]==0){
+            cout<<i<<endl;
+            qt.enqueue(i);
+            visited[i]=1;
+        }
+    }
+}
+
+
+}
+int main()
+{
+    int B[8][8] = {{0, 0, 0, 0, 0, 0, 0, 0},
+                   {0, 0, 1, 1, 1, 0, 0, 0},
+                   {0, 1, 0, 1, 0, 0, 0, 0},
+                   {0, 1, 1, 0, 1, 1, 0, 0},
+                   {0, 1, 0, 1, 0, 1, 0, 0},
+                   {0, 0, 0, 1, 1, 0, 1, 1},
+                   {0, 0, 0, 0, 0, 1, 0, 0},
+                   {0, 0, 0, 0, 0, 1, 0, 0}};
+    cout << "Vertex: 1 -> " << flush;
+    Breadth_first_Search(1,B,8);
+    cout<<endl;
+    cout << "Vertex: 5 -> " << flush;
+    Breadth_first_Search(5,B,8);
+
+    return 0;
+}

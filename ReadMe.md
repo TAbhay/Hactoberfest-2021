@@ -1,41 +1,127 @@
+# 🎃 🎯   HacktoberFest 2021  🎃🎯 
+# Make your first Pull Request and earn a free T-shirt 👕👕 from GitHub!
+# Star & fork this Repo first
+![Hacktoberfest 2021](hacktober.jpg)
+## All valid PRs will be merged or suitable tags like hacktober-accepted will be given 
+
+Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
+
+Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting involved in the open source community by completing some simple tasks in this project.
+
+This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
+
+## What is Hacktoberfest?
+A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+
+[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+
+## How to contribute to this project
+Here are 3 quick and painless ways to contribute to this project:
+
+* Add your name to the `Profile.md` file
+* There are various sections like CP , Development , Interview etc , Add valuable resources
+
+
+# For Begginers
+1) Visit & Learn 
+[Tutorial Github ](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+2) Copy the template and write hacktoberfest in your language
+3) Make a pull request
+4) Wait until your pull request is merged
+## Enjoy , You have made it
+
+## Getting started
+* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
+* Clone your fork down to your local machine
+
+```markdown
+git clone https://github.com/your-username/hacktoberfest.git
+```
+
+* Create a branch
+
+```markdown
+git checkout -b branch-name
+```
+
+* Make your changes (choose from any task below)
+* Commit and push
+
+```markdown
+git add .
+git commit -m 'Commit message'
+git push origin branch-name
+```
+
+* __Star this repository__ 
+* Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+* Wait for your PR review and merge approval!
+
+
+## Choose from these tasks
+### 1. Add your name
+Add your name to the `Profile.md` file using the below convention:
+
+```markdown
+#### Name: [YOUR NAME](GitHub link)
+- Bio: Who are you?
+- GitHub: [GitHub account name](GitHub link)
+```
+
+### 2. Add a profile page
+Add a `Your_Name.md` file to the `profiles` directory. Use any combination of content and Markdown you'd like. Here is an example:
+
+```markdown
+# Your Name
+
+### Location
+
+Your City/Country
+
+### Academics
+
+Your School
+
+### Interests
+
+- Some Things You Like
+
+### Development
+
+- Inventor of the My Pillow
+
+### Projects
+
+- [My Project](GitHub Link) Short Description
+
+### Profile Link
+
+[Your Name](GitHub Link)
+```
+
+### 3. Create a `Hello, World!` Script
+Add a `hello_world_yourusername.xx` script to the `scripts` directory in any language of your choice! Here is an example:
+
+```Javascript
+// LANGUAGE: Javascript
+// ENV: Node.js
+// AUTHOR: Alice Chuang
+// GITHUB: https://github.com/AliceWonderland
+
+console.log('Hello, World!');
+```
+
+
+# Reference links
+
+##### Creating awesome readme Online : [https://dillinger.io/](https://dillinger.io/)
+
+##### Managing Forked Repos: [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+
+##### Syncing a Fork repo: [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
+
+##### Checkout this list for README examples - Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+##### Github-Flavored Markdown [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+
 # Star this Repo first
-
-# Hacktoberfest2020---its a very good project and get a free tshirt.
-
-Make your first Pull Request and earn a free tee from GitHub!
-
-![Hacktoberfest 2020](osc_hacktoberfest2020.png)
-
-
-<p align="center">
-   <img alt="GitHub issues" src="https://img.shields.io/github/issues/OpenSouceCode/Hacktoberfest2020"></a>
-   <img alt="GitHub forks" src="https://img.shields.io/github/issues/OpenSouceCode/Hacktoberfest2020"></a>
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/OpenSouceCode/Hacktoberfest2020"></a>
-   <img alt="Github license" src="https://img.shields.io/github/license/OpenSouceCode/Hacktoberfest2020"></a>
-</p>
-# Welcome to GitHub!
-
-## This project is perfect for your first pull request
-
-## Instructions-
-
-- Fork this Repository using the button at the top
-- Clone your forked repository to your pc
-- Create a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` and `git checkout -b new-user`)`
-- Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
-- Create a pull request
-- Star this repository
-
-#  Make your first Pull Request
-
-## Write Hacktoberfest in your native language
-
-
-
-_Do not use special characters in the template above._
-
-## 4. Wait for Pull Request to merge
-
-## 5. Celebrate - you've done your first pull request!!
-
-

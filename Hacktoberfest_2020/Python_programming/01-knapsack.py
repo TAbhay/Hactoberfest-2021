@@ -1,4 +1,6 @@
 '''
+01-knapsack code 
+it finds the maximum profit and the items to be picked to get maximum profit
 '''
 def knapSack(capacity,weight,profit,num):
     global K

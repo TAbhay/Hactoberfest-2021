@@ -1,25 +1,25 @@
-# Your Name
+# Akash Srivastava
 
 ### Location
 
-Your City/Country
+Ayodhya , India
 
 ### Academics
 
-Your School
+JB Acadmey
 
 ### Interests
 
-- Some Things You Like
+Chess , Acting , Novels 
 
 ### Development
 
-- Inventor of the My Pillow
+MAde some awesome android and python projects do checkout my github 
 
 ### Projects
 
-- [My Project](GitHub Link) Short Description
+- [Movies App](https://github.com/Akashsri3bi/Movies_App_) Made an Movies application using android , java , and Rest Api
 
 ### Profile Link
 
-[Your Name](GitHub Link)
+[Akash Srivastava](https://github.com/Akashsri3bi)

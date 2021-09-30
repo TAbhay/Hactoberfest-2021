@@ -1,4 +1,4 @@
 | Name             | Github Profile                         |   Interest             |   Bio      |
 | :---             |    :----:                              |          ---:          |      ---:  |
 | Abhay Tiwari     | [TAbhay](https://github.com/TAbhay/)   |       --               |   --       |
-| Add              | Add                                   |     Add                 |     Add       |
+| Aditya Singh RAthore | [adityasrathore](https://github.com/adityasrathore)|     Add                 |     Add       |

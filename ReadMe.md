@@ -57,6 +57,22 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!
 
+# Add sub-folders of your name and put files into respective sub-folders
+#### Example - >
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   └───subfolder1(your name + github id( optional ))
+│       │   file111.cpp
+│       │   file112.js
+│       │   ...
+│   
+└───folder2
+```
+
 
 ## Choose from these tasks
 ### 1. Add your name

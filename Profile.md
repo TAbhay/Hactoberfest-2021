@@ -8,4 +8,4 @@
 | Prajwal Baranwal      | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) |        Cricket , Speaker |               Age 20 , 6'2 , Indian |
 | Sudheer KUmar         |                     [Sudheer Kumar]                     | consultant,business work |           skilled, entrepreneurship |
 | Uttam Gupta           |                      [Uttam Gupta]                      |        Leadership, novel | content writer, html, web designing |
-| Sarvesh Kumar Dwivedi |        [Sarvesh](https://github.com/sarvesh4396)        |               Bash,Linux |                 I Student & I break to recreate |
+| Sarvesh Kumar Dwivedi |        [Sarvesh](https://github.com/sarvesh4396)        |               Bash,Linux |                 I am a student & I break to recreate |

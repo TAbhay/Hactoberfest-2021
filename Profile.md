@@ -8,4 +8,8 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
+<<<<<<< Updated upstream
 | Adarsh Saurabh| [Adarsh Saurabh](https://github.com/Adarsh-Saurabh)| Music, Exploring, Programming | I am a python programmer|
+=======
+| Adarsh Saurabh| [Adarsh Saurabh](https://github.com/Adarsh-Saurabh)| Music, Exploring, Programming | I am a python programmer|
+>>>>>>> Stashed changes

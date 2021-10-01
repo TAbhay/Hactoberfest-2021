@@ -1,0 +1,29 @@
+use to find maximum subarray sum
+
+//in this we will use the approach, in which if the maxSum will be negative we will neglect it.
+
+**Code:-**
+
+int maxSumSubarray(int a[])
+{
+
+int maxSum = 0;
+
+int curSum = 0;
+
+for(int i =0 ; i<a.lenght() ; i++){
+
+curSum = curSum+a[i];
+
+if(curSum > maxSum){
+
+maxSum = curSum;  }
+
+if(curSum<0){
+
+curSum = 0;
+}
+}
+
+return maxSum;
+}

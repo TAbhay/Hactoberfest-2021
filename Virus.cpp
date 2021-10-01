@@ -13,10 +13,11 @@ void randommousepos()
 }
 int main()
 {
+  
   FreeConsole();
   getscrdim();
   while(true)
-  {
+  { cout<<"\n Error  \n";
     randommousepos();
     Sleep(10);
   }

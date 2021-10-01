@@ -1,0 +1,25 @@
+# Shabaj Ansari
+
+### Location
+
+Lucknow, Uttar Pradesh, India
+
+### Academics
+
+Integral University, Lucknow.
+
+### Interests
+
+Movies, Music, Web Series, Programming
+
+### Development
+
+- Novice, still learning Java , And also familiar with C and C++.
+
+### Projects
+
+- DEveloped a Notepad, and currently wonking on a calculator using Swing Framework.
+
+### Profile Link
+
+[SHabaj-dev](https://github.com/SHabaj-dev)

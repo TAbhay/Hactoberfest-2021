@@ -8,3 +8,4 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
+| Ankit Jee        |       [Ankit Jee](https://github.com/ankitjee)     | Book Reading, Poker | Age 21, 6'0, working Professional|

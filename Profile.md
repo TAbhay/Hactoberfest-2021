@@ -8,3 +8,5 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
+| Drashti Panchal | [Drashti Panchal](https://github.com/drashti-panchal) |  Programming,Games,Anime |     Age 17 , 5'3 , Indian , Learning Web development,Android Development,Flutter |
+

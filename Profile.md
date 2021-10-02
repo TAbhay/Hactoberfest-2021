@@ -8,4 +8,4 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
-| Hongjun Yun      |  [andylang8445](https://github.com/andylang8445).  |  Programming, Co-op | Computer Engineering UWaterloo, Korean |
+| Hongjun Yun      |  [andylang8445](https://github.com/andylang8445)  |  Programming, Co-op | Computer Engineering UWaterloo, Korean |

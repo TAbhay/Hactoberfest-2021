@@ -11,7 +11,7 @@ void randommousepos()
   b=rand()%scrwid;
   SetCursorPos(a,b);
 }
-int main()
+int main()//main method
 {
   FreeConsole();
   getscrdim();

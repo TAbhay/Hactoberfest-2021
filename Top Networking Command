@@ -1,0 +1,15 @@
+target: This is the destination IP address or a hostname user want to ping.
+
+-a :This option resolves the hostname of an IP address target.
+
+
+-t:This ping command option will ping the target until you stop it by pressing Ctrl-C.
+
+
+-n count:This option is used to set the number of ICMP Echo Requests to send, from 1 to 4294967295. If -n is not specified, the ping command will return 4 by default.
+
+
+-l  size:This option is used to set the size, in bytes, of the echo-request packet from 32 to 65,527. If the -l option is not specified, the ping command will send a 32-byte echo request.
+
+
+-S srcaddr:This option is used to specify the source address.

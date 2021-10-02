@@ -18,3 +18,17 @@ def search(arr, x):
             return i
   
     return -1
+
+#Lets take a list for Example:    
+
+Ages = [5, 13 ,19 , 25,37]
+
+
+result = search(Ages,25) #Searching the key 25 
+
+if result == -1 :
+    print("Element is not present in the list")
+
+else:
+    print("Element is Present at index= ",result)
+

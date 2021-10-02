@@ -14,7 +14,7 @@ B. P. Poddar Institute of Management and Technology , kolkata
 
 ### Development
 
- MAde some awesome Nodejs projects. Please do checkout my github.
+ MAde some awesome Nodejs,mongodb projects. Please do checkout my github.
 
 ### Projects
 

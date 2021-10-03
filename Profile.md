@@ -8,4 +8,4 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
-| Devesh Tripathi | [devesh Tripathi](https://github.com/devesh17m)| React-Native , Javascript , Football | 
+| Devesh Tripathi | [devesh Tripathi](https://github.com/devesh17m)| React-Native , Javascript , Football , python| 

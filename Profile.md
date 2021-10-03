@@ -8,3 +8,4 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
+| Aman Uttam       | [Aman Uttam](https://github.com/Amanuttam1192)     | FreeLancer,Cuber,Coder| Operation Inetrn at J.P Morgan,Indian|

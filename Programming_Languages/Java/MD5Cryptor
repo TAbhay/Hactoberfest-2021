@@ -1,0 +1,79 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class MD5Cryptor {
+
+    private static String passphrase = "yourpassword";
+
+    public static byte[] getPassphrase()
+    {
+        return passphrase.getBytes();
+    }
+
+    public static String getStrPassphrase()
+    {
+        return passphrase;
+    }
+
+    public static String getMD5Hash(String s) {
+        try {
+            // Create MD5 Hash
+            MessageDigest digest = MessageDigest.getInstance("MD5");
+            digest.update(s.getBytes());
+            byte messageDigest[] = digest.digest();
+
+            // Create Hex String
+            StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+            return hexString.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static String getMD5Hash(byte[] s) {
+        try {
+            // Create MD5 Hash
+            MessageDigest digest = MessageDigest.getInstance("MD5");
+            digest.update(s);
+            byte messageDigest[] = digest.digest();
+
+            // Create Hex String
+            StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+            return hexString.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static byte[] computeHash(byte[] data)
+    {
+        try {
+            // Create MD5 Hash
+            MessageDigest digest = MessageDigest.getInstance("MD5");
+            digest.update(data);
+            byte messageDigest[] = digest.digest();
+
+            // Create Hex String
+           /* StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));*/
+            return messageDigest;
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static boolean verifyMD5Hash(String input, String hash){
+        String mD5Hash = getMD5Hash(input);
+        if(mD5Hash.equalsIgnoreCase(hash))
+            return true;
+        return false;
+    }
+}

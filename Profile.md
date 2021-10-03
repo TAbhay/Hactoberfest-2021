@@ -8,3 +8,4 @@
 | Prajwal Baranwal | [Prajwal BAranwal](https://github.com/Prajwal-Baranwal) | Cricket , Speaker |     Age 20 , 6'2 , Indian |
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
+| Avaneesh Singh   |       [Avi-11] (https://github.com/avi-11)         | DS,Development,Sports| Age 19, 5'8 , Indian|

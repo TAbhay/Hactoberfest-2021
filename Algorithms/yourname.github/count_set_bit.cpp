@@ -1,3 +1,6 @@
+// Name - Sanskar Modi
+// Env - C++
+// GitHub Profile - https://github.com/SanskarModi22
 //Program to count the set bits of a number using a LooUp table
 #include <bits/stdc++.h>
 using namespace std;

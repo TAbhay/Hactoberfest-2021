@@ -9,3 +9,4 @@
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
+| Himanshu         |       [Himanshu](https://github.com/him2016)       |        Programming |        Learner, Programmer |

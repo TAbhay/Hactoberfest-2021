@@ -1,3 +1,17 @@
-#### Name: [Geesilu](https://github.com/Geesilu)
-- Bio: Student
-- GitHub: [Geesilu](https://github.com/Geesilu)
+# Geesilu
+
+### Location
+
+Galle, Sri Lanka
+
+### Academics
+
+Mahinda College
+
+### Interests
+
+- Programming
+
+### Profile Link
+
+[Geesilu](https://github.com/Geesilu)

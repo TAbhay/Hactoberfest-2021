@@ -9,3 +9,4 @@
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
+| Rushan | [RushanNotOfficial](https://github.com/RushanNotOfficial) | Machine Learning, Full Stack developement, blockchain, Cryptocurrency | Hey there, I'm Rushan, I like coffee and making new friends. Also, I am studying blockchain|

@@ -1,0 +1,107 @@
+/* CSS Document */
+
+body {
+font-family:lucida Sans,serif;
+margin:auto;
+/*overflow:scroll;*/
+}
+
+
+#header {
+ border: 1px solid #ccc;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 60px;
+ margin: 10px 0px 0px 0px;
+}
+
+#container {
+ margin: 0 auto;
+ width: 922px;
+}
+
+#leftcolumn { 
+ border: 1px solid #ccc;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height:inherit;
+ width: 200px;
+ float: left;
+}
+
+
+#content{
+ float: left;
+ border: 1px solid #ccc;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height:inherit;
+ width: 456px;
+ display: inline;
+}
+
+#rightcolumn { 
+ border: 1px solid #ccc;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height:inherit;
+ width: 200px;
+ float: left;
+}
+
+#footer { 
+ width: 900px;
+ clear: both;
+ border: 1px solid #ccc;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+
+.signin {
+float:right;
+}
+
+.signup {
+float:right;
+clear:right;
+}
+
+.signup2 {
+margin-top: 183px; 
+margin-left: 502px;
+}
+
+/*#nav {
+	list-style: none;
+	padding: 0;
+	'margin: 10px 0 20px 0;
+	background: #2e2e2e url(images/nav_bar.jpg) repeat-x;
+	'display: block;
+	'overflow: hidden;
+	font-size: 0.9em;
+	height:33px;
+	text-transform:capitalize;
+}
+#nav li {
+	display: inline;
+
+}
+#nav li a {
+	display: block;
+	'float: left;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	height: 25px;
+	width: 20px;
+
+}
+#nav li a:hover {
+	background: #1b1b1b url(images/nav_bar_o.jpg) repeat-x;
+}*/
+
+
+
+

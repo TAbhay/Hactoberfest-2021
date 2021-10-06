@@ -9,3 +9,6 @@
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
+#### Name: [Anjaan Gaire](https://github.com/Anjaan-g)
+- Bio: Hi, I'm Anjaan from Nepal. I'm a python developer. I've been in this industry for 4 years now.
+- GitHub: [Anjaan-g](https://github.com/Anjaan-g)

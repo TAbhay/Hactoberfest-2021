@@ -9,3 +9,4 @@
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Jasbir Singh     | [physicsgtx] { https://github.com/physicsgtx/}   | Programming vvector Designing|  I am a full stack developer |
+| Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |

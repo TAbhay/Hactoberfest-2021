@@ -141,3 +141,11 @@ console.log('Hello, World!');
 ##### Github-Flavored Markdown [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 # Star this Repo first
+
+
+
+# Interview resources
+[Google interview resourses](https://www.educative.io/blog/google-coding-interview)
+[Amazon interview resourses](https://www.geeksforgeeks.org/amazon-interview-preparation/)
+[Top 22 interview preparation resourses](https://learntocodewith.me/posts/coding-interview-resources/)
+

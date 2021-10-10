@@ -10,4 +10,4 @@
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
 | Ajay Karki     |        [AjayKarki](https://github.com/AjayKarki/)        | Chess, Programming | Software Engineer|
-| Heet Boda        | [Heet Boda](https://github.com/heetboda10)         | Outdoor Games       | I am a software Developer |
+| Heet Boda        | [Heet Boda](https://github.com/heetboda10)         | Outdoor Games       | I am a Software Developer |

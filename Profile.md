@@ -9,4 +9,5 @@
 | Sudheer KUmar    | [Sudheer Kumar] | consultant,business work| skilled, entrepreneurship|
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
-| Ajay Karki     |        [AjayKarki](https://github.com/AjayKarki/)        | Chess, Programming | Software Engineer|
+| Ajay Karki       |  [AjayKarki](https://github.com/AjayKarki/)        | Chess, Programming | Software Engineer|
+| shreya           |  [Butterflysly53](https://github.com/butterflysly53) | web designing    |          Student             |

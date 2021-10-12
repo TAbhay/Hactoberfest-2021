@@ -10,3 +10,4 @@
 | Uttam Gupta | [Uttam Gupta] | Leadership, novel | content writer, html, web designing|
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
 | Ajay Karki     |        [AjayKarki](https://github.com/AjayKarki/)        | Chess, Programming | Software Engineer|
+| Himanshu         |[HimanshuxD79] (https://github.com/HimanshuxD79) | Programming, problem solving , web design | Age 18,5'6,Indian|

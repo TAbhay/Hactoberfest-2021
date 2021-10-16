@@ -1,5 +1,5 @@
 # 🎃 🎯   HacktoberFest 2021  🎃🎯 
-# Make your first Pull Request and earn a free T-shirt 👕👕 from GitHub!
+# Make your first Pull Request and earn a free T-shirt 👕👕 from GitHub!Its Beginner friendly
 # Star & fork this Repo first
 ![Hacktoberfest 2021](hacktober.jpg)
 ## All valid PRs will be merged or suitable tags like hacktober-accepted will be given 

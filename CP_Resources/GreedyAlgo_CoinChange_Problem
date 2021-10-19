@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+int ans[100];
+void broker(int coins[], int rupees);
+int main()
+{
+    int i, rupees;
+    int coins[] = {1, 2, 5, 10, 20, 50, 100, 500, 1000};
+
+    cout << "Enter the value of rupees: ";
+    cin >> rupees;
+
+    broker(coins, rupees);
+
+    return 0;
+}
+
+void broker(int coins[], int rupees)
+{
+    int i, j, count = 0;
+    
+    for (i = 8; i >= 0; i--)
+    {
+        while (rupees >= coins[i])
+        {
+            rupees = rupees - coins[i];
+            ans[count] = coins[i];
+            count++;
+        }
+        if(rupees == 0)
+            break;
+    }
+    for (i = 0; i < count; i++)
+    {
+        cout<<ans[i]<<"\t";
+    }
+    
+}

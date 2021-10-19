@@ -10,7 +10,7 @@ Manipal University Jaipur
 
 ### Interests
 
-I like to play tennis, watch historical documentaries, and to have special love towards coding. 
+I like to play tennis, watch historical documentaries, and have special love towards coding. 
 
 ### Development
 

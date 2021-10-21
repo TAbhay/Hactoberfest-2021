@@ -24,7 +24,7 @@ def merge_lists(a,b,arr):
             i+=1
         else:
             arr[k] = b[j]
-            j+=1
+            j=j+1
         k+=1
 
     while i < len_a:

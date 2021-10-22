@@ -1,4 +1,4 @@
-# Pranju
+# Adeity
 
 ### Location
 
@@ -15,5 +15,3 @@ Novels
 ### Development
 
 Learning React
-
-### Projects

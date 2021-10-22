@@ -1,4 +1,4 @@
-# Add here Classic Questions
+#Classic Questions
 These frequently asked questions touch on the essentials hiring managers want to know about every candidate: who you are, why you’re a fit for the job, and what you’re good at. You may not be asked exactly these questions in exactly these words, but if you have answers in mind for them, you’ll be prepared for just about anything the interviewer throws your way.
 
 1. Tell Me About Yourself.

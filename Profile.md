@@ -11,3 +11,4 @@
 | Seungmin Sa      | [harang](https://github.com/saseungmin)| Front-End              | Age 26, Republic of Korea |
 | Ajay Karki     |        [AjayKarki](https://github.com/AjayKarki/)        | Chess, Programming | Software Engineer|
 | Mudassir Raza     |        [Mudassir Raza](https://github.com/Mudassirraza912/)        | Gym, Programming | MERN Stack Developer|
+

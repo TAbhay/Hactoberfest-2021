@@ -1,0 +1,72 @@
+ #include<stdio.h>
+  
+ int main(){
+ int i=0,opnum,j=0,len;
+ char s1[100],s2[100],temp;
+ printf("\n\"Welcome to Menu Driven Program For Strings\"");
+ printf("\n\nEnter The Operation Number you want to perform on Strings\n\n");
+ printf("************************************************\n\n");
+ printf(" 1.) Find the Length of String. \n 2.) To Concatenate two String. \n 3.) Find Reverse of a String. \n");
+ printf(" 4.) To Copy one String to another String. \n");
+ printf("\n************************************************\n");
+ scanf("%d",&opnum);
+ getchar();
+ if(opnum==1){
+ printf("\nYou Choose Length of String\n");
+ printf("\nEnter String\n");
+ gets(s1);
+ printf("\nLength of String is\n");
+ for(len=0;s1[len]!='\0';len++);
+ printf("%d\n",len);
+ 
+ }
+ else if(opnum==2){
+ printf("\nYou Choose Concatenate of Two String\n");
+ printf("\nEnter First String\n");
+ gets(s1);
+ printf("\nEnter Second String\n");
+ gets(s2);
+ for(i=0;s1[i]!='\0';i++);
+ for(j=0;s2[j]!='\0';j++,i++){
+ s1[i]=s2[j];
+ }
+ s1[i]='\0';
+ printf("\nNew Concatenated String is\n");
+ puts(s1);
+ 
+ }
+ else if(opnum==3){
+ printf("\nYou Choose Reverse of a String\n");
+ printf("\nEnter a String\n");
+ gets(s1);
+ for(len=0;s1[len]!='\0';len++);
+ j=len-1;
+ while(i<j){
+ temp =s1[i];
+ s1[i]=s1[j];
+ s1[j]=temp;
+ i++,j--;
+ }
+ puts(s1);
+ }
+ else if(opnum==4){
+ printf("\nYou Choose Copy One String into another String\n");
+ printf("\nEnter String which you want to Copy into another
+String\n");
+ gets(s1);
+ for(len=0;s1[len]!='\0';len++){
+ s2[len]=s1[len];
+ }
+ s2[len]='\0';
+ printf("\nCopied String is:\n%s",s2);
+ }
+ else{
+ printf("\nError!!!!!You Entered Wrong Number!!\n");
+ 
+ 
+}
+ 
+return 
+0
+;
+}

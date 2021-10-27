@@ -1,0 +1,2057 @@
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+ONLINESTUDY REPRESENTS COMPLETE INTERVIEW MATERIAL:
+Contents
+Basic Programming Questions ..........................................................................................2
+C/C++/JAVA/OOPS/PYTHON/DBMS/MCHINE LEARNING/IOT
+INTERVIEW EXPERIENCES ..................................................................................................... 31
+HR INTERVIEW QUESTIONS & ANSWERS ............................................................................ 39
+ELECTRONICS ENGG QUESTIONS........................................................................................... 42
+MECHANICAL ENGG QUESTIONS ........................................................................................... 46
+ELECTRICAL ENGG QUESTIONS ............................................................................................. 49
+OPERATING SYSTEM QUESTIONS.......................................................................................... 53
+TIPS AND STRATEGIES............................................................................................................. 60
+Coding Questions(does not contains Answers)...................................................... 61
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+1) What are the differences between C++ and Java ?
+Platformindependent
+C++ is platform-dependent. Java is platform-independent.
+Mainly used 
+for
+C++ is mainly used for system 
+programming.
+Java is mainly used for application programming. It is 
+widely used in window, web-based, enterprise and 
+mobile applications.
+Design Goal C++ was designed for systems 
+and applications 
+programming. It was an 
+extension of C programming 
+language.
+Java was designed and created as an interpreter for 
+printing systems but later extended as a support 
+network computing. It was designed with a goal of 
+being easy to use and accessible to a broader 
+audience.
+Goto C++ supports 
+the goto statement.
+Java doesn't support the goto statement.
+Multiple 
+inheritance
+C++ supports multiple 
+inheritance.
+Java doesn't support multiple inheritance through 
+class. It can be achieved by interfaces in java.
+Operator 
+Overloading
+C++ supports operator 
+overloading.
+Java doesn't support operator overloading.
+Pointers C++ supports pointers. You 
+can write pointer program in 
+C++.
+Java supports pointer internally. However, you can't 
+write the pointer program in java. It means java has 
+restricted pointer support in java.
+Compiler and 
+Interpreter
+C++ uses compiler only. C++ is 
+compiled and run using the 
+compiler which converts 
+source code into machine 
+Java uses compiler and interpreter both. Java source 
+code is converted into bytecode at compilation time. 
+The interpreter executes this bytecode at runtime and 
+produces output. Java is interpreted that is why it is 
+platform independent.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+code so, C++ is platform 
+dependent.
+Call by Value 
+and Call by 
+reference
+C++ supports both call by
+value and call by reference.
+Java supports call by value only. There is no call by 
+reference in java.
+Structure and 
+Union
+C++ supports structures and 
+unions.
+Java doesn't support structures and unions.
+Thread Support C++ doesn't have built-in 
+support for threads. It relies 
+on third-party libraries for 
+thread support.
+Java has built-in thread support.
+Documentation 
+comment
+C++ doesn't support 
+documentation comment.
+Java supports documentation comment (/** ... */) to 
+create documentation for java source code.
+Virtual 
+Keyword
+C++ supports virtual keyword 
+so that we can decide 
+whether or not override a 
+function.
+Java has no virtual keyword. We can override all nonstatic methods by default. In other words, non-static 
+methods are virtual by default.
+unsigned right 
+shift >>>
+C++ doesn't support >>> 
+operator.
+Java supports unsigned right shift >>> operator that 
+fills zero at the top for the negative numbers. For 
+positive numbers, it works same like >> operator.
+Inheritance 
+Tree
+C++ creates a new 
+inheritance tree always.
+Java uses a single inheritance tree always because all 
+classes are the child of Object class in java. The object 
+class is the root of the inheritance tree in java.
+Hardware C++ is nearer to hardware. Java is not so interactive with hardware.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Objectoriented
+C++ is an object-oriented 
+language. However, in C 
+language, single root 
+hierarchy is not possible.
+Java is also an object-oriented language. However, 
+everything (except fundamental types) is an object in 
+Java. It is a single root hierarchy as everything gets 
+derived from java.lang.Object.
+2) What are the features of Java Programming Language?
+There are the following features in Java Programming Language.
+o Simple: Java is easy to learn. The syntax of Java is based on C++ which makes easier to 
+write the program in it.
+o Object-Oriented: Java follows the object-oriented paradigm which allows us to 
+maintain our code as the combination of different type of objects that incorporates 
+both data and behaviour.
+o Portable: Java supports read-once-write-anywhere approach. We can execute the 
+Java program on every machine. Java program (.java) is converted to bytecode (.class) 
+which can be easily run on every machine.
+o Platform Independent: Java is a platform independent programming language. It is 
+different from other programming languages like C and C++ which needs a platform to 
+be executed. Java comes with its platform on which its code is executed. Java doesn't 
+depend upon the operating system to be executed.
+o Secured: Java is secured because it doesn't use explicit pointers. Java also provides the 
+concept of Byte Code and Exception handling which makes it more secured.
+o Robust: Java is a strong programming language as it uses strong memory 
+management. The concepts like Automatic garbage collection, Exception handling, 
+etc. make it more robust.
+o Architecture Neutral: Java is architectural neutral as it is not dependent on the 
+architecture. In C, the size of data types may vary according to the architecture (32 bit 
+or 64 bit) which doesn't exist in Java.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+o Interpreted: Java uses the Just-in-time (JIT) interpreter along with the compiler for the 
+program execution.
+o High Performance: Java is faster than other traditional interpreted programming 
+languages because Java bytecode is "close" to native code. It is still a little bit slower 
+than a compiled language (e.g., C++).
+o Multithreaded: We can write Java programs that deal with many tasks at once by 
+defining multiple threads. The main advantage of multi-threading is that it doesn't 
+occupy memory for each thread. It shares a common memory area. Threads are 
+important for multi-media, Web applications, etc.
+o Distributed: Java is distributed because it facilitates users to create distributed 
+applications in Java. RMI and EJB are used for creating distributed applications. This 
+feature of Java makes us able to access files by calling the methods from any machine 
+on the internet.
+o Dynamic: Java is a dynamic language. It supports dynamic loading of classes. It means 
+classes are loaded on demand. It also supports functions from its native languages, 
+i.e., C and C++.
+3) What is JVM ?
+Java Virtual Machine is a virtual machine that enables the computer to run the Java program. 
+JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the 
+specification which must be implemented in the computer system. The Java code is compiled by 
+JVM to be a Bytecode which is machine independent and close to the native code.
+4) What is JIT Compiler ?
+Just-In-Time(JIT) compiler: It is used to improve the performance. JIT compiles parts of the 
+bytecode that have similar functionality at the same time, and hence reduces the amount of time 
+needed for compilation. Here the term “compiler” refers to a translator from the instruction set 
+of a Java virtual machine (JVM) to the instruction set of a specific CPU.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+5) What are the different access specifiers in Java ?
+In Java, access specifiers are the keywords which are used to define the access scope of the 
+method, class, or a variable. In Java, there are four access specifiers given below.
+• Public: The classes, methods, or variables which are defined as public, can be accessed 
+by any class or method.
+• Protected: Protected can be accessed by the class of the same package, or by the subclass of this class, or within the same class.
+• Default: Default are accessible within the package only. By default, all the classes, 
+methods, and variables are of default scope.
+• Private: The private class, methods, or variables defined as private can be accessed 
+within the class only.
+6) What is the difference between an object-oriented programming language and objectbased programming language?
+There are the following basic differences between the object-oriented language and objectbased language.
+• Object-oriented languages follow all the concepts of OOPs whereas, the object-based 
+language doesn't follow all the concepts of OOPs like inheritance and polymorphism.
+• Object-oriented languages do not have the inbuilt objects whereas Object-based languages 
+have the inbuilt objects, for example, JavaScript has window object.
+• Examples of object-oriented programming are Java, C#, Smalltalk, etc. whereas the examples 
+of object-based languages are JavaScript, VBScript, etc.
+7) What are the features of OOP?
+The important features of Object-Oriented programming are:
+• Classes and Objects
+These contain data and functions bundled together under a unit. In other words, class is 
+a collection of similar objects. When we define a class it just creates template or Skelton. 
+So no memory is created when class is created. Memory is occupied only by object.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Example:
+Class className
+{
+Data 
+Functions
+};
+main ( )
+{
+className objectname1,objectname2,..;
+}
+In other words classes acts as data types for objects.
+Objects are the instances of a class.
+• Inheritance
+Inheritance is an important pillar of OOP(Object Oriented Programming). It is the 
+mechanism in java by which one class is allow to inherit the features(fields and 
+methods) of another class.
+• Polymorphism
+The word polymorphism means having many forms. In simple words, we can define 
+polymorphism as the ability of a message to be displayed in more than one form.
+• Data Abstraction
+Abstraction means displaying only essential information and hiding the details. Data 
+abstraction refers to providing only essential information about the data to the outside 
+world, hiding the background details or implementation.
+• Data Encapsulation
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Encapsulation is defined as wrapping up of data and information under a single unit. In 
+Object-Oriented Programming, Encapsulation is defined as binding together the data 
+and the functions that manipulate them.
+• Dynamic Binding
+In dynamic binding, the code to be executed in response to function call is decided at 
+runtime.
+• Message Passing
+Objects communicate with one another by sending and receiving information to each 
+other. A message for an object is a request for execution of a procedure and therefore 
+will invoke a function in the receiving object that generates the desired results. Message 
+passing involves specifying the name of the object, the name of the function and the 
+information to be sent.
+8) What is Inline function?
+Inline function is a technique used by the compilers and instructs to insert complete body of the 
+function wherever that function is used in the program source code.
+9) What is an abstract class?
+An abstract class is a class which cannot be instantiated. Creation of an object is not possible 
+with abstract class but it can be inherited. An abstract class can contain only Abstract method. 
+Java allows only abstract method in abstract class while for other language it allows nonabstract method as well.
+10) What is an abstract class?
+An abstract class is a class which cannot be instantiated. Creation of an object is not possible 
+with abstract class , but it can be inherited. An abstract class can contain only Abstract method. 
+Java allows only abstract method in abstract class while for other language it allows nonabstract method as well.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+11) What is an interface ?
+An interface is a collection of abstract method. If the class implements an inheritance, and then 
+thereby inherits all the abstract methods of an interface.
+12) What is exception handling ?
+Exception is an event that occurs during the execution of a program. Exceptions can be of any 
+type — Run time exception, Error exceptions. Those exceptions are handled properly through 
+exception handling mechanism like try, catch and throw keywords.
+13) What is static and dynamic binding ?
+Binding is nothing but the association of a name with the class. Static binding is a binding in 
+which name can be associated with the class during compilation time and it is also called as 
+early Binding.
+Dynamic binding is a binding in which name can be associated with the class during 
+execution time and it is also called as Late Binding.
+14) What is a copy constructor ?
+This is a special constructor for creating a new object as a copy of an existing object. There will 
+be always only on copy constructor that can be either defined by the user or the system.
+15) What is the difference between a structure and a class ?
+Structure default access type is public but class access type is private. A structure is used for 
+grouping data whereas class can be used for grouping data and methods. Structures are 
+exclusively used for data and it doesn’t require strict validation but classes are used to 
+encapsulates and inherit data which requires strict validation.
+16) Why is C known as the Mother Language ?
+C is known as a mother language because most of the compilers and JVMs are written in C 
+language. Most of the languages which are developed after C language has borrowed heavily
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+from it like C++, Python, Rust, JavaScript, etc. It introduces new core concepts like arrays, 
+functions, file handling which are used in these languages.
+17) What are the differences between Local Variables and Global Variables?
+Basis for 
+comparison
+Local variable Global variable
+Declaration A variable which is declared inside 
+function or block is known as a 
+local variable.
+A variable which is declared 
+outside function or block is 
+known as a global variable.
+Scope The scope of a variable is available 
+within a function in which they are 
+declared.
+The scope of a variable is 
+available throughout the 
+program.
+Access Variables can be accessed only by 
+those statements inside a function 
+in which they are declared.
+Any statement in the entire 
+program can access variables.
+Life Life of a variable is created when 
+the function block is entered and 
+destroyed on its exit.
+Life of a variable exists until 
+the program is executing.
+Storage Variables are stored in a stack 
+unless specified.
+The compiler decides the 
+storage location of a variable.
+18) What is the use of writing a function in C Programming Language?
+• C functions are used to avoid the rewriting the same code again and again in our 
+program.
+• C functions can be called any number of times from any place of our program.
+• When a program is divided into functions, then any part of our program can easily be 
+tracked.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• C functions provide the reusability concept, i.e., it breaks the big task into smaller tasks 
+so that it makes the C program more understandable.
+19) What is the difference between Call By Value and Call By Reference?
+Call by value Call by reference
+Description When a copy of the value is 
+passed to the function, then the 
+original value is not modified.
+When a copy of the value is 
+passed to the function, then the 
+original value is modified.
+Memory 
+location
+Actual arguments and formal 
+arguments are created in separate 
+memory locations.
+Actual arguments and formal 
+arguments are created in the 
+same memory location.
+Safety In this case, actual arguments 
+remain safe as they cannot be 
+modified.
+In this case, actual arguments 
+are not reliable, as they are 
+modified.
+Arguments The copies of the actual 
+arguments are passed to the 
+formal arguments.
+The addresses of actual 
+arguments are passed to their 
+respective formal arguments.
+20) What is recursion in C ?
+When a function calls itself, and this process is known as recursion. The function that calls 
+itself is known as a recursive function.
+Recursive function comes in two phases:
+Winding phase: When the recursive function calls itself, and this phase ends when the 
+condition is reached.
+Unwinding phase: Unwinding phase starts when the condition is reached, and the control 
+returns to the original call.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+21) What is a pointer in C?
+A pointer is a variable that refers to the address of a value. It makes the code optimized and 
+makes the performance fast. Whenever a variable is declared inside a program, then the system 
+allocates some memory to a variable. The memory contains some address number. The 
+variables that hold this address number is known as the pointer variable.
+22) What is a NULL pointer ?
+A pointer that doesn't refer to any address of value but NULL is known as a NULL pointer. When 
+we assign a '0' value to a pointer of any type, then it becomes a Null pointer.
+23) What is a far pointer in C ?
+A pointer which can access all the 16 segments (whole residence memory) of RAM is known as 
+far pointer. A far pointer is a 32-bit pointer that obtains information outside the memory in a 
+given section.
+24) What is a dangling pointer in C ?
+• If a pointer is pointing any memory location, but meanwhile another pointer deletes the 
+memory occupied by the first pointer while the first pointer still points to that memory 
+location, the first pointer will be known as a dangling pointer. This problem is known as 
+a dangling pointer problem.
+• Dangling pointer arises when an object is deleted without modifying the value of the 
+pointer. The pointer points to the deallocated memory.
+25) What is the usage of Pointer in C ?
+• Accessing array elements: Pointers are used in traversing through an array of integers 
+and strings. The string is an array of characters which is terminated by a null character 
+'\0'.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• Dynamic memory allocation: Pointers are used in allocation and deallocation of memory 
+during the execution of a program.
+• Call by Reference: The pointers are used to pass a reference of a variable to other 
+function.
+• Data Structures like a tree, graph, linked list, etc.: The pointers are used to construct 
+different data structures like tree, graph, linked list, etc.
+26) What is Static Memory Allocation ?
+• In case of static memory allocation, memory is allocated at compile time, and memory 
+can't be increased while executing the program. It is used in the array.
+• The lifetime of a variable in static memory is the lifetime of a program.
+• The static memory is allocated using static keyword.
+• The static memory is implemented using stacks or heap.
+• The pointer is required to access the variable present in the static memory.
+• The static memory is faster than dynamic memory.
+• In static memory, more memory space is required to store the variable.
+27) What is Dynamic Memory Allocation ?
+• In case of dynamic memory allocation, memory is allocated at runtime and memory can 
+be increased while executing the program. It is used in the linked list.
+• The malloc() or calloc() function is required to allocate the memory at the runtime.
+• An allocation or deallocation of memory is done at the execution time of a program.
+• No dynamic pointers are required to access the memory.
+• The dynamic memory is implemented using data segments.
+• Less memory space is required to store the variable.
+28) What is a structure ?
+• The structure is a user-defined data type that allows storing multiple types of data in a 
+single unit. It occupies the sum of the memory of all members.
+• The structure members can be accessed only through structure variables.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• Structure variables accessing the same structure but the memory allocated for each 
+variable will be different.
+29) What is a union ?
+• The union is a user-defined data type that allows storing multiple types of data in a 
+single unit. However, it doesn't occupy the sum of the memory of all members. It holds 
+the memory of the largest member only.
+• In union, we can access only one variable at a time as it allocates one common space for 
+all the members of a union.
+30) What is an auto keyword in C ?
+In C, every local variable of a function is known as an automatic (auto) variable. Variables which 
+are declared inside the function block are known as a local variable. The local variables are also 
+known as an auto variable. It is optional to use an auto keyword before the data type of a 
+variable. If no value is stored in the local variable, then it consists of a garbage value.
+31) What is a token ?
+The Token is an identifier. It can be constant, keyword, string literal, etc. A token is the smallest 
+individual unit in a program. C has the following tokens:
+Identifiers: Identifiers refer to the name of the variables.
+Keywords: Keywords are the predefined words that are explained by the compiler.
+Constants: Constants are the fixed values that cannot be changed during the execution of a 
+program.
+Operators: An operator is a symbol that performs the particular operation.
+Special characters: All the characters except alphabets and digits are treated as special 
+characters.
+32) What is command line argument ?
+The argument passed to the main() function while executing the program is known as 
+command line argument. For example:
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+main(int count, char *args[])
+{ 
+//code to be executed 
+} 
+33) What is a file?
+A file is a named location which stores data or information permanently. A file is always 
+stored inside a storage device using file name (e.g. STUDENT.MARKS). A file name 
+normally has primary and secondary name separated by a “.”(DOT).
+34) What is the difference between Function Overloading and Overriding ?
+Overloading is when two or more methods in the same class have the
+same method name but different parameters(i.e different method
+signatures).
+Overriding is when two methods having the same method name and
+parameters (i.e., method signature) but one of the methods is in the
+parent class and the other is in the child class.
+35) What is a deadlock in OS ?
+Deadlock is a situation or condition where the two processes are waiting for each other 
+to complete so that they can start. This result both the processes to hang.
+36) What is Context Switching ?
+Transferring the control from one process to other process requires saving the state of 
+the old process and loading the saved state for new process. This task is known as 
+context switching.
+37) Differentiate between Compiler and Interpreter.
+An interpreter reads one instruction at a time and carries out the actions
+implied by that instruction. It does not perform any translation. But a
+compiler translates the entire instructions.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+38) What are the differences between list and tuple in Python ?
+LIST TUPLES
+Lists are mutable i.e they can be 
+edited.
+Tuples are immutable (tuples are lists which 
+can’t be edited).
+Lists are slower than tuples. Tuples are faster than list.
+Syntax: list_1 = [10, ‘Chelsea’, 20] Syntax: tup_1 = (10, ‘Chelsea’ , 20)
+39) What type of language is Python ? Scripting or Programming ?
+Python is capable of scripting, but in general sense, it is considered as a generalpurpose programming language.
+40) What is type conversion in Python ?
+Type conversion refers to the conversion of one data type into another.
+int() – converts any data type into integer type
+float() – converts any data type into float type
+ord() – converts characters into integer
+hex() – converts integers to hexadecimal
+oct() – converts integer to octal
+tuple() – This function is used to convert to a tuple.
+set() – This function returns the type after converting to set.
+list() – This function is used to convert any data type to a list type.
+dict() – This function is used to convert a tuple of order (key,value) into a 
+dictionary.
+str() – Used to convert integer into a string.
+complex(real,imag) – This functionconverts real numbers to 
+complex(real,imag) number.
+41) What is pickling and unpickling in Python ?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Pickle module accepts any Python object and converts it into a string 
+representation and dumps it into a file by using dump function, this process is 
+called pickling. While the process of retrieving original Python objects from the 
+stored string representation is called unpickling.
+42) How to comment multiple lines in Python ?
+Multi-line comments appear in more than one line. All the lines to be commented are 
+to be prefixed by a #. You can also a very good shortcut method to comment multiple 
+lines. All you need to do is hold the ctrl key and left click in every place wherever you 
+want to include a # character and type a # just once. This will comment all the lines 
+where you introduced your cursor.
+43) What are docstrings in Python ?
+Docstrings are not actually comments, but, they are documentation strings. These 
+docstrings are within triple quotes. They are not assigned to any variable and 
+therefore, at times, serve the purpose of comments as well.
+44) What is a dictionary in Python ?
+The built-in datatypes in Python is called dictionary. It defines one-to-one relationship 
+between keys and values. Dictionaries contain pair of keys and their corresponding 
+values. Dictionaries are indexed by keys.
+45) What advantages do NumPy arrays offer over (nested) Python lists?
+• Python’s lists are efficient general-purpose containers. They support (fairly) 
+efficient insertion, deletion, appending, and concatenation, and Python’s list 
+comprehensions make them easy to construct and manipulate.
+• They have certain limitations: they don’t support “vectorized” operations like 
+elementwise addition and multiplication, and the fact that they can contain 
+objects of differing types mean that Python must store type information for every 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+element, and must execute type dispatching code when operating on each 
+element.
+• NumPy is not just more efficient; it is also more convenient. You get a lot of vector 
+and matrix operations for free, which sometimes allow one to avoid unnecessary 
+work. And they are also efficiently implemented.
+• NumPy array is faster and You get a lot built in with NumPy, FFTs, convolutions, 
+fast searching, basic statistics, linear algebra, histograms, etc.
+46) Does Python have OOPS Concept ?
+Python is an object-oriented programming language. This means that any program 
+can be solved in python by creating an object model. However, Python can be 
+treated as procedural as well as structural language.
+47) What is __init__ ?
+__init__ is a method or constructor in Python. This method is automatically called to 
+allocate memory when a new object/ instance of a class is created. All classes have
+the __init__ method.
+48) What is meant by Database ?
+In simple terms, Database is a collection of data in some organized way to facilitate 
+its user’s to easily access, manage and upload the data.
+49) What are the advantages of DBMS ?
+• Controlled Redundancy: DBMS supports a mechanism to control redundancy of 
+data inside the database by integrating all the data into a single database and as 
+data is stored at only one place, the duplicity of data does not happen.
+• Data Sharing: Sharing of data among multiple users simultaneously can also be 
+done in DBMS as the same database will be shared among all the users and by 
+different application programs.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• Backup and Recovery Facility: DBMS minimizes the pain of creating the backup of 
+data again and again by providing a feature of ‘backup and recovery’ which 
+automatically creates the data backup and restores the data whenever required.
+• Enforcement of Integrity Constraints: Integrity Constraints are very important to be 
+enforced on the data so that the refined data after putting some constraints are 
+stored in the database and this is followed by DBMS.
+• Independence of Data: It simply means that you can change the structure of the 
+data without affecting the structure of any of the application programs.
+50) What is the use of Normalization in DBMS ?
+Normalization is the process of analyzing the relational schemas which are based on 
+their respective functional dependencies and the primary keys in order to fulfill certain 
+properties.
+The properties include:
+▪ To minimize the redundancy of the Data.
+▪ To minimize the Insert, Delete and Update Anomalies.
+51) What are the differences between Primary Key and Unique Key ?
+• The main difference between the Primary key and Unique key is that the Primary 
+key can never have a null value while the Unique key may consist of null value.
+• In each table, there can be only one primary key while there can be more than one 
+unique key in a table.
+52) Explain ACID properties in DBMS.
+• Atomicity: This is based on the concept of “either all or nothing” which basically 
+means that if any update occurs inside the database then that update should 
+either be available to all the others beyond user and application program or it 
+should not be available to anyone beyond the user and application program.
+• Consistency: This ensures that the consistency is maintained in the database 
+before or after any transaction that takes place inside the database.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• Isolation: As the name itself suggests, this property states that each transaction 
+that is occurring is in isolation with others i.e. a transaction which has started but 
+not yet completed should be in isolation with others so that the other transaction 
+does not get impacted with this transaction.
+• Durability: This property states that the data should always be in a durable state 
+i.e. any data which is in the committed state should be available in the same state 
+even if any failure or restart occurs in the system.
+53) Explain Entity, Entity Type, and Entity Set in DBMS?\
+• Entity is an object, place or thing which has its independent existence in the 
+real world and about which data can be stored in a database. Eg: any person, 
+book, etc.
+• Entity Type is a collection of the entities which have the same attributes. Eg: 
+STUDENT table contains rows in which each row is an entity holding attributes 
+like name, age , and id of the students, hence STUDENT is an Entity Type which 
+holds the entities having same attributes.
+• Entity Set is a collection of the entities of the same type. Eg: A collection of the 
+employees of a firm.
+54) What are the different levels of abstraction in DBMS ?
+There are 3 levels of data abstraction in the DBMS.
+• Physical Level: This is the lowest level of the data abstraction which states 
+how the data is stored in the database.
+• Logical Level: This is the next level of the data abstraction which states the 
+type of the data and the relationship among the data that is stored in the
+database.
+• View Level: This is the highest level in the data abstraction which 
+shows/states only a part of the database.
+55) What is a functional dependency in DBMS ?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+This is basically a constraint which is useful in describing the relationship among the 
+different attributes in a relation.
+Example: If there is some relation ‘R1’ which has 2 attributes as Y and Z then the 
+functional dependency among these 2 attributes can be shown as Y->Z which states 
+that Z is functionally dependent on Y.
+56) How is pattern matching done in SQL ?
+With the help of the LIKE operator, pattern matching is possible in the SQL.’%’ is used 
+with the Like operator when it matches with the 0 or more characters and ‘_’ is used 
+to match the one particular character.
+Example:
+• select * from Emp where name like ‘b%’
+• select * from Emp where name like ‘hans_’
+57) What are the different types of relationships in RDBMS ?
+One-to-One: This basically states that there should be a one-to-one relationship 
+between the tables i.e. there should be one record in both the tables. Eg: Among a 
+married couple, both wife and husband can have only one spouse.
+One-to-Many: This states that there can be many relationships for one i.e. a primary 
+key table hold only one record which can have many, one or none records in the 
+related table. Eg: A Mother can have many children.
+Many-to-Many: This states that both the tables can be related to many other tables. 
+Eg: One can have many siblings and so do they have.
+58) What is data structure?
+Data structure refers to the way data is organized and manipulated. It seeks to find ways 
+to make data access more efficient. When dealing with the data structure, we not only 
+focus on one piece of data but the different set of data and how they can relate to one 
+another in an organized manner.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+59) Differentiate between file and structure storage structure.
+The key difference between both the data structure is the memory area that is being 
+accessed. When dealing with the structure that resides the main memory of the 
+computer system, this is referred to as storage structure. When dealing with an auxiliary 
+structure, we refer to it as file structures.
+60) When is a binary search best applied?
+A binary search is an algorithm that is best applied to search a list when the elements are 
+already in order or sorted. The list is searched starting in the middle, such that if that 
+middle value is not the target search key, it will check to see if it will continue the search 
+on the lower half of the list or the higher half. The split and search will then continue in 
+the same manner.
+61) What is a linked list?
+A linked list is a sequence of nodes in which each node is connected to the node 
+following it. This forms a chain-like link for data storage.
+62) How do you reference all the elements in a one-dimension array?
+To reference all the elements in a one -dimension array, you need to use an indexed 
+loop, So that, the counter runs from 0 to the array size minus one. In this manner, You 
+can reference all the elements in sequence by using the loop counter as the array 
+subscript.
+63) In what areas do data structures are applied?
+Data structures are essential in almost every aspect where data is involved. In general, 
+algorithms that involve efficient data structure is applied in the following areas: 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+numerical analysis, operating system, A.I., compiler design, database management, 
+graphics, and statistical analysis, to name a few.
+64) What is LIFO?
+LIFO is a short form of Last In First Out. It refers how data is accessed, stored and 
+retrieved. Using this scheme, data that was stored last should be the one to be extracted 
+first. This also means that in order to gain access to the first data, all the other data that 
+was stored before this first data must first be retrieved and extracted.
+65) What is a queue?
+A queue is a data structure that can simulate a list or stream of data. In this structure, 
+new elements are inserted at one end, and existing elements are removed from the 
+other end.
+66) What are binary trees?
+A binary tree is one type of data structure that has two nodes, a left node, and a right 
+node. In programming, binary trees are an extension of the linked list structures.
+67) Which data structures are applied when dealing with a recursive function?
+Recursion, is a function that calls itself based on a terminating condition, makes use of 
+the stack. Using LIFO, a call to a recursive function saves the return address so that it 
+knows how to return to the calling function after the call terminates.
+68) What is a stack?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+A stack is a data structure in which only the top element can be accessed. As data is 
+stored in the stack, each data is pushed downward, leaving the most recently added data 
+on top.
+69) Explain Binary Search Tree
+A binary search tree stores data in such a way that they can be retrieved very efficiently. 
+The left subtree contains nodes whose keys are less than the node’s key value, while the 
+right subtree contains nodes whose keys are greater than or equal to the node’s key 
+value. Moreover, both subtrees are also binary search trees.
+70) What are multidimensional arrays?
+Multidimensional arrays make use of multiple indexes to store data. It is useful when 
+storing data that cannot be represented using single dimensional indexing, such as data 
+representation in a board game, tables with data stored in more than one column.
+71) Are linked lists considered linear or non-linear data structures?
+It depends on where you intend to apply linked lists. If you based it on storage, a linked 
+list is considered non-linear. On the other hand, if you based it on access strategies, then 
+a linked list is considered linear.
+72) How does dynamic memory allocation help in managing data?
+Apart from being able to store simple structured data types, dynamic memory allocation 
+can combine separately allocated structured blocks to form composite structures that 
+expand and contract as needed.
+73) What is FIFO?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+FIFO stands for First-in, First-out, and is used to represent how data is accessed in a 
+queue. Data has been inserted into the queue list the longest is the one that is removed 
+first.
+74) What is an ordered list?
+An ordered list is a list in which each node’s position in the list is determined by the 
+value of its key component, so that the key values form an increasing sequence, as the 
+list is traversed.
+75) What is merge sort?
+Merge sort, is a divide-and-conquer approach for sorting the data. In a sequence of 
+data, adjacent ones are merged and sorted to create bigger sorted lists. These sorted 
+lists are then merged again to form an even bigger sorted list, which continues until you 
+have one single sorted list.
+76) Differentiate NULL and VOID
+Null is a value, whereas Void is a data type identifier. A variable that is given a Null value 
+indicates an empty value. The void is used to identify pointers as having no initial size.
+77) What is the primary advantage of a linked list?
+A linked list is an ideal data structure because it can be modified easily. This means that 
+editing a linked list works regardless of how many elements are in the list.
+78) What is the difference between a PUSH and a POP?
+Pushing and popping applies to the way data is stored and retrieved in a stack. A push 
+denotes data being added to it, meaning data is being “pushed” into the stack. On the 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+other hand, a pop denotes data retrieval, and in particular, refers to the topmost data 
+being accessed.
+79) What is a linear search?
+A linear search refers to the way a target key is being searched in a sequential data 
+structure. In this method, each element in the list is checked and compared against the 
+target key. The process is repeated until found or if the end of the file has been reached.
+80) How does variable declaration affect memory allocation?
+The amount of memory to be allocated or reserved would depend on the data type of 
+the variable being declared. For example, if a variable is declared to be of integer type, 
+then 32 bits of memory storage will be reserved for that variable.
+81) What is the advantage of the heap over a stack?
+The heap is more flexible than the stack. That’s because memory space for the heap can 
+be dynamically allocated and de-allocated as needed. However, the memory of the heap 
+can at times be slower when compared to that stack.
+82) What is a postfix expression?
+A postfix expression is an expression in which each operator follows its operands. The 
+advantage of this form is that there is no need to group sub-expressions in parentheses 
+or to consider operator precedence.
+83) What is Data abstraction?
+Data abstraction is a powerful tool for breaking down complex data problems into 
+manageable chunks. This is applied by initially specifying the data objects involved and 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+the operations to be performed on these data objects without being overly concerned 
+with how the data objects will be represented and stored in memory.
+84) How do you insert a new item in a binary search tree?
+Assuming that the data to be inserted is a unique value (that is, not an existing entry in 
+the tree), check first if the tree is empty. If it’s empty, just insert the new item in the root 
+node. If it’s not empty, refer to the new item’s key. If it’s smaller than the root’s key, 
+insert it into the root’s left subtree, otherwise, insert it into the root’s right subtree.
+85) How does a selection sort work for an array?
+The selection sort is a fairly intuitive sorting algorithm, though not necessarily efficient. 
+In this process, the smallest element is first located and switched with the element at 
+subscript zero, thereby placing the smallest element in the first position.
+The smallest element remaining in the subarray is then located next to subscripts 1 
+through n-1 and switched with the element at subscript 1, thereby placing the second 
+smallest element in the second position. The steps are repeated in the same manner till 
+the last element.
+86) How do signed and unsigned numbers affect memory?
+In the case of signed numbers, the first bit is used to indicate whether positive or 
+negative, which leaves you with one bit short. With unsigned numbers, you have all bits 
+available for that number. The effect is best seen in the number range (an unsigned 8-bit 
+number has a range 0-255, while the 8-bit signed number has a range -128 to +127.
+87) What is the minimum number of nodes that a binary tree can have?
+A binary tree can have a minimum of zero nodes, which occurs when the nodes have 
+NULL values. Furthermore, a binary tree can also have 1 or 2 nodes.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+88) What are dynamic data structures?
+Dynamic data structures are structures that expand and contract as a program runs. It 
+provides a flexible means of manipulating data because it can adjust according to the 
+size of the data.
+89) In what data structures are pointers applied?
+Pointers that are used in linked list have various applications in the data structure. Data 
+structures that make use of this concept include the Stack, Queue, Linked List and Binary 
+Tree.
+90) Do all declaration statements result in a fixed reservation in memory?
+Most declarations do, with the exemption of pointers. Pointer declaration does not 
+allocate memory for data, but for the address of the pointer variable. Actual memory 
+allocation for the data comes during run-time.
+91) What are ARRAYs?
+When dealing with arrays, data is stored and retrieved using an index that refers to the 
+element number in the data sequence. This means that data can be accessed in any 
+order. In programming, an array is declared as a variable having a number of indexed 
+elements.
+92) What is the minimum number of queues needed when implementing a
+priority queue?
+The minimum number of queues needed in this case is two. One queue is intended for 
+sorting priorities while the other queue is used for actual storage of data.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+93) Which sorting algorithm is considered the fastest?
+There are many types of sorting algorithms: quick sort, bubble sort, balloon sort, radix 
+sort, merge sort, etc. Not one can be considered the fastest because each algorithm is 
+designed for a particular data structure and data set. It would depend on the data set 
+that you would want to sort.
+94) Differentiate STACK from ARRAY.
+Stack follows a LIFO pattern. It means that data access follows a sequence wherein the 
+last data to be stored when the first one to be extracted. Arrays, on the other hand, does 
+not follow a particular order and instead can be accessed by referring to the indexed 
+element within the array.
+95) Give a basic algorithm for searching a binary search tree.
+if the tree is empty, then the target is not in the tree, end search
+2. if the tree is not empty, the target is in the tree
+3. check if the target is in the root item
+4. if a target is not in the root item, check if a target is smaller than the root’s value
+5. if a target is smaller than the root’s value, search the left subtree
+6. else, search the right subtree
+96) What is a dequeue?
+A dequeue is a double-ended queue. This is a structure wherein elements can be 
+inserted or removed from either end.
+97) What is a bubble sort and how do you perform it?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+A bubble sort is one sorting technique that can be applied to data structures such as an 
+array. It works by comparing adjacent elements and exchanges their values if they are 
+out of order. This method lets the smaller values “bubble” to the top of the list, while 
+the larger value sinks to the bottom.
+98) What is Cloud Computing ?
+Cloud computing is a type of computing that relies on shared computing resources rather than 
+having local servers or personal devices to handle applications.
+In its most simple description, cloud computing is taking services ("cloud services") and moving 
+them outside an organization's firewall. Applications, storage and other services are accessed 
+via the Web. The services are delivered and used over the Internet and are paid for by the cloud 
+customer on an as-needed or pay-per-use business model.
+99) Explain the concept of IOT ?
+The internet of things, or IoT, is a system of interrelated computing devices, mechanical and 
+digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and 
+the ability to transfer data over a network without requiring human-to-human or human-tocomputer interaction.
+100) What is Machine Learning ?
+Machine learning is an application of artificial intelligence (AI) that provides systems the 
+ability to automatically learn and improve from experience without being explicitly 
+programmed. Machine learning focuses on the development of computer programs that 
+can access data and use it learn for themselves.
+The process of learning begins with observations or data, such as examples, direct 
+experience, or instruction, in order to look for patterns in data and make better decisions in 
+the future based on the examples that we provide. The primary aim is to allow the 
+computers learn automatically without human intervention or assistance and adjust actions 
+accordingly.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Interview Experiences:
+Interview Experiences of Our Students Nikhil t:
+HR TEAM came to my college RVR JC 
+i went to 8 am in my bus
+and interviews started from 9 am
+upto 1:30 pm all the girls were interviewed
+as all know there will be tr , mr (skype) and hr(direct face 2 face)
+my friends asked few girls about the interview procedure and questions
+i didnot ask becoz i am full shy to ask , anyway thats different from current topic
+they told few questions
+Q1. what are diff between c c++ java and java python ?
+Q2. what is abstraction polymorphism etc on oops concepts
+Q3. basic questions blah blah blah
+now our boys turn had started
+there are 5 panels btw 
+they sorted according to our name given at time registration
+so I am almost last
+my friends whose names starts with A had went first
+and they came after 15-20 min
+i am very curious to know what happened? 
+some told that medium questions 
+like asking a program to write (matrix addition ,multiplication)
+how many sorting techniques you know?
+and which is the best in time complexity?
+then some other questions related to LATEST TRENDS
+like machine learning , big data ,blah blah blah
+you no need to know in depth just you need to know
+some of other department students like ece , eee ,mech were interviewed in their core 
+subjects
+I did not even understood what are those becoz i am cse student
+i fell udner panel 3 
+my friend was also under same panel before me
+he went first
+and returned
+i asked him
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+he told that some advanced dbms(database) concepts 
+and he told about his project
+now its my turn 
+its about 5:15 pm in the evening
+tr's went to tea break and came
+they told to come in
+now there is laptop infront of me with a headset with mic
+i sat down and feeling super nervuous becoz its my first skype interview
+there are two TR members in skype and one HR in face2face
+interview had went like this
+ TR : tell me about yourself
+me : i had introduced my self and my hands started shivering
+TR : what languages do you know?
+me : basics in C , JAVA and intermediate in python
+TR : why like that?
+me : i had learnt c java in my clg i had done some intermediate programs but now i cant 
+remember as that of python
+TR : okok , write a string palindrome program in c and python
+me : i had written in python which took 3 lines and in c i took 5 -10 min and showed 
+them 
+TR : okok , how do you use pyhton in machine learning ?
+me : I DONT KNOW THAT MUCH ABOUT MACHINE LEARNING 
+TR : (secondmember) : which other language you use in ml other than python?
+me : i have no idea sir 
+TR : ok ok , what databases you know ?
+me : sql , mongo db (here's my intention is to divert them to the mongo db as i forgot 
+sql basics also ,eventually persons will actually grasp the second word than first word ) 
+TR : is mongo db rdbms or non rdbms ?
+me : non rdbms its nosql and document based database 
+TR : how data is stored in mongodb?
+me : in json format 
+TR : okok, what is client server architecture ?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+me : i answered 
+TR : what is three tier architecture ?
+me : i answered 
+TR : in IOT 
+my mind started shivering becoz i am not an ece guy and i dont know about IOT 
+i waited for him to complete the question
+TR : in IOT , we are about to use IPv6 addresses , what do you know about them ?
+now my mind was so happy as i know networking 
+i answered in depth somewhat
+TR : what is webservices?
+me : i answered 
+TR : ok naga sai nikhil thank you
+i was shocked and feared if they mean "YOU CAN LEAVE FOR TODAY "
+Then HR asked TR 's 
+TR told that i am good to go to HR 
+THIS DOES PUT A SMIILE ON MY FACE
+Ccoming to HR 
+he took my resume when i entered the room
+upto then he read it
+one thing i tell you friends is to put your projects remember this line
+HR : what is flipkart scraper?
+as i have done project on webscraping 
+me : its a scraper which gets value of redmi note 5 and emails me when the price 
+changed
+HR : will that require permission from flipkart ?
+me : no ,becoz you can view the products and their prices without loggining into flipkart
+HR : you have youtube channel ?
+(i have put it in my resume )
+me : yes sir
+HR : how many subscribers?
+me : 200-300
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+HR : will you do weekly a video?
+me : no sir i wil ldo if i get continouus holidays and not in exams time 
+HR : how much moeny you earnt?
+me : ididnot apply for adsense sir and also revenue will be low 
+HR : ok ok you are find and you can go 
+and he also asked about my CTF's and some token of appreciations
+as you can see clearly there are no quesions like 
+"why TCS ? " 
+"tell me abot tcs?"
+"why should we hire you?"
+"will you leave tcs if you got some better company?"
+i promise and telling you there are no shit questions like this in any of the rounds 
+THE REASON IS 
+my projects :)
+put on your projects in your resume even you didnot complete that project
+i dont have latest trend like machine learning, big data and others
+i am only good at basics and cyber security( i didnot tell it to TR because i lost my 
+codevita interview because of this )
+and i dont know about results
+i just had my interview ,came home, commenting here about my interview 
+THIS IS MY EXPERIENCE
+Interview Experience of a TCS candidate (SRM chennai university ! )
+1.Tell me about yourself?
+2.Why did you choose engineering?
+3.why did you choose it company when you're from EcE?
+4.Why should we hire you?
+5. If any other It company offers more package like Google will you stick with Tcs or else 
+will you move to that company?
+6.Do you prefer further studies?
+7. Difference between python and C?
+8.Will you be able to all weekends under pressure for 12 hours?
+9. Do you have any questions?
+#TCS NQT interview Experience 1
+tcs-nqt-interview-questions-and-experiences
+Attended TCS NQT interview in the month of June 2019 & got selected.
+Two rounds – TR and HR. First was TR. 
+Questions were:
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Q1. What is cloud computing, application of cloud computing, SAAS?
+Q2. Do you know any real-time applications of cloud computing?
+Q3. What is a linear data structure?
+Q4. Explain quick sort with algorithm and example?
+Q5.Given an array, how will you search an element in the most efficient manner?
+Q6.Difference between execution and error?
+Round 2: HR
+1) Tell me something which is not a part of your resume?
+2) What are u doing to increase your communication skills?
+3) Are you willing to relocate?
+4) Why TCS?
+#TCS NQT interview Experience 2
+tcs nqt interview questions & experiences 
+Attended TCS NQT off-campus for 2018 batch & got selected.
+There was one round of interview only which combined Technical, HR, MR rounds. 
+Questions were based on my core branch which is Electrical. All of them were basic 
+questions like what is your fav subject, what is an induction motor, its applications, etc.
+Some questions were from programming like write a program to print Fibonacci series. 
+Some HR questions were like – Are you willing to relocate, Are you okay with night shifts etc.
+Imp points to note down:
+Never lie anything in your application form or resume.
+Whether you know anything or not, don’t stay calm in the interview. 
+Smile more, be bold, be positive. They never hire candidates who are always serious and 
+worried about little things.
+Sleep well before the interview and wear neat and clean and proper formal dress. (from hair 
+band to shoes). –
+If you are cross-questioned at one of your lies, its better to tell the truth.
+Do full research about the company before the interview.
+Keep your voice loud and clear.
+These are all the important traits which the company is looking for. So try to match these
+points. All the best !!
+PS: If it’s your day, then nothing is gonna stop you. And if it’s not then no matter how hard 
+you try, nothing gonna happen. So, the bottom line is that do your best, don’t worry about 
+the result.
+Also, in the online test, I was asked this coding question – Write a Program to count the 
+number of vowels and consonants in the word taken as an input by the user.
+#TCS NQT interview Experience 3
+tcs nqt interview questions
+Attended TCS NQT for 2018 batch & got selected.
+Overall Interview was good. You need to be confident. Prepare about projects well and 
+basics of HTML, C. Prepare the topics which are mentioned in your resume. Some of the 
+questions that were asked are:
+1) Tell me about yourself?
+2) Tell me about TCS?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+3) Why do you want to join TCS?
+4) Why you are applying for IT industry and why not jobs in your Core domain?
+5) Explain your project & your role in the project?
+6) Some HTML basics & about Embedded systems
+#TCS NQT interview Experience 4
+The overall interview experience was great. I am from Civil background and I was 
+interviewed for over 40 mins. There were 2 rounds, Technical & HR interview.
+Who built C?
+Difference between Call by Value and Call by Address?
+Difference between merge sort and insertion sort?
+Example of merge sort.
+How to count the elements of a String?
+Basics about structure, linked list, queue.
+The HR interview went for only 5 mins and they asked me only 3 questions: 1) relocation 2) 
+background check and 3) serviceability bond. 
+#TCS NQT interview Experience 5
+Attended TCS NQT in 2018
+First of all, they asked me to introduce about myself. I said I’m confident in C, C++, JAVA, 
+DBMS. After that a few technical questions were asked.
+What is Dangling Pointer?
+Basic SQL queries?
+C program to check whether a number is prime?
+What is a double pointer?
+Briefly asked about your project.
+Difference between C and C++.
+Overall it was a good interview. Finally, I asked the interviewer to rate my interview. I think I 
+shouldn’t have asked that question!! The interviewer told me he can’t tell that now and 
+asked me to wait for the email.
+#TCS NQT interview Experience 6
+I am from Mechanical branch. My interview was on 9th Feb 2018 in MGIT college, 
+Hyderabad. For me all the three round (TR, MR, HR) were held in one round with 3 
+interviewers. They asked me questions on C and JAVA as I said I am trained on those 
+languages. Prepare all the basics of languages mentioned in your resume and be prepared 
+on each and every line of your resume. If u think u can’t answer for a question on your 
+resume then please remove that line from your resume.
+You will be asked this question “Being a non-IT student, why are u coming into this field”?. 
+When asked, answer carefully else they will definetly drag on this topic based on ur answer. 
+However maybe the interviewer’s face (serious or smiling), you should be confident with a 
+smile on our face. Some topics & questions asked were:
+OOPs concepts – All the definitions of OOPs concepts
+• between while and do while.
+• Interface definition,
+• Platform dependency
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• JVM
+• Prime number program
+• Many questions on java (I don’t remember some of them)
+• If you are okay with relocation, then why didn’t u choose to do engineering in some 
+other state? 
+• Difference between 2 stroke and 4 stroke Difference
+TCS NQT Programming Questions
+1. What is data abstraction? what are the three levels of data abstraction with 
+Example?
+2. What is command line argument?
+3. Advantages of a macro over a function?
+4. What are the different storage classes in C?
+5. Which header file should you include if you are to develop a function which can 
+accept a variable number of arguments?
+6. What is cache memory?
+7. What is debugger?
+8. Const char *p , char const *p What is the difference between the above two?
+9. What is Memory Alignment?
+10. Explain the difference between 'operator new' and the 'new' operator?
+11. Difference between delete and delete[]?
+12. What is conversion constructor?
+13. What is a spanning Tree?
+14. Why should we use data warehousing and how can you extract data for analysis 
+with an example?
+15. Explain recursive function & what is the data structures used to perform 
+recursion?
+16. Differentiate between Compiler and Interpreter?
+17. What is the scope of a variable?
+18. What is a user-defined exception in Java?
+19. What is Java Applet?
+20. What do you know about the garbage collector?
+21. Write a Binary Search program
+22. What are enumerations?
+23. What a is a static identifier?
+24. What is Cryptography?
+25. What is encryption?
+26. What is decryption?
+27. What exactly is a digital signature?
+28. What is an Interrupt?
+29. What is trigger?
+30. What do you mean by joins in SQL? Explain its type.
+31. How you handle the pressure? (Following questions were asked by the 
+Managerial guy)
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+32. If you are a Team Leader and one of your assistant is not working up to the mark 
+and due to him/her, the project is being delayed. How will you handle this situation?
+33. Are you comfortable working in night shift? (Following questions were asked by 
+HR guy).
+34. Are you ok with the 2-year bond?
+35. Why do you want to join TCS?
+36.How can volte work in a 4G mobile?
+37.What is an IP address?
+38. What is Cloud Computing?
+39. Explain types of protocols.
+40. What are your strengths and weaknesses?
+41. How to connect nine dots using three straight lines?
+Sample Interview Experience by Student for TCS
+Type of Interview: On-Campus Interview
+Student Interview
+Round 2: Interview Round
+Technical Questions
+Some of the questions asked in this section were:
+• What are the properties of intrinsic semiconductor?
+• What is modulation and its types?
+• What is the difference between electronics and electricals?
+• What is the difference between C and C++?
+• What is OOPS?
+• What is a Linked List?
+HR Questions
+• Tell me about yourself.
+• Why do you want to shift your domain from ECE to IT?
+• How many offers do you have?
+• Why don’t you join your father’s business?
+1.Tell which subject you read recently for interview – DBMS.
+2.What is DBMS.?
+3.What is advantage of DBMS?
+4.What is redundancy?
+5.How to remove redundancy?
+6.What is Normalization?
+7.Tell about normal forms?
+8.What is DDL,DML,DCL?
+9.Write Query to create a table?
+10.Copy data from one table to another table?
+11.Second max salary of an employee
+12.Right outer join query and tabulated output
+13.Normalization definition and anomalies
+14.Give employee table asked some simple SQL query
+15.What is Indexing and Clustering in RDBMS? Why we used?
+16.Types of Joins in RDBMS
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+HR INTERVIEW QUESTIONS AND ANSWERS:
+Q1. Tell me about yourself.
+Hello sir, madam good morning /afternoon/evening.
+I am Shilpa from Shimla.
+Recently, I have completed my graduation ( BTech) in electronics and communication 
+engineering from RGIT.
+I have done my schooling from girls high school with 9.7 cgpa.
+I have done my intermediate from Nalanda I have secured 94%.
+My father is an electrician, my mother is a teacher, I have one brother.
+My strength is I am highly determined to fulfil my goals.
+My role model is my parents.
+My hobbies are reading books, playing indoor games.
+My short-term goal is to get a job in a reputed company and my long term goal is to 
+get a respected position in that organization.
+As a fresher, I have no experience but I will try to prove myself when the opportunity 
+comes to me. I am looking to join your company to explore my skills.
+That's all about myself.
+Don’t make the mistake of sharing too much personal information in any of your HR 
+interview questions and answers round. You will not be left with enough time to sell your 
+experience and relevant technical skills
+Q2. Why Should i hire you ?
+As a fresher, I am having less practical knowledge but have the ability to grab things quickly 
+and I believe in improving myself day to day is key of my success and growth of the company. 
+I will be working with full efficiency and getting work done at the assigned time.
+Q3. What are your strengths and weaknesses?
+My strength is I am a very bold, self-motivated person, quick learner, honest towards my job 
+with a positive attitude.
+My weakness is I can't say no when people ask me for help, believing everyone.
+Q4. Can you perform under pressure?
+Most of the times, the job of software development is that of working under pressure. 
+Sometimes, it will be the pressure of delivering on time while it can be that of a bug that has 
+sprung all of a sudden in your code.So, expect pressure in everything you do. It is important 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+to maintain your performance and develop strategies to deliver under pressure. You can then 
+go ahead an talk about your way of dealing with pressure and performing under it.
+Relate with a problem which looks real: My mother was not well and my father was out of 
+station during my exam. I had the pressure of Exam and I had to take care of my mother also, 
+but still I performed well and I managed to get x% in 10
+th/12th/Graduation.
+Q5. Why do you want to work at our company?
+It would be a great honor to work with one of the most reputed organization. I'm sure that I'll 
+learn many more things and will surely work with the team members and do my best.
+Q6. Are you willing to relocate or travel?
+Yeah, it will be cherry on cake because travelling is my hobby. So a new place new friend a 
+new environment and new working location. It's amazing because change is necessary, and I 
+believe in change.
+Note: Never Ever say no for any questions, they are not going to send you immediately. They 
+are checking your patience level.
+Q7. Where do you see yourself five years from now?
+After 5 years, I would be in more professional and better than what I am now.
+I also would like to lead the team and make an ideal for my team members.
+And also be make myself confidence and trustable employee as a company expect from me.
+Note : don’t say that I will become MD and CEO of the company and will replace you.
+Q8. Give me an example of your creativity.
+According to me, the creativity is not only making new things but also in the improvement of 
+existing things. Some people think that doing different things is creativity, But I don't think so. 
+Creativity is not only making different things just do things differently.
+Relate with a real Example:
+Q9. How long would you expect to work for us if hired?
+I will work with your company till the day, I feel that I am not giving the best result which is 
+required by your company, after trying my level best.
+Q10. How do you feel about working nights and weekends?
+Company growth is obviously employees growth, Whenever a company needs me, I will be 
+there either in nights or weekends.
+Note : Don’t say no , they just wanted to check your patience level.
+Q11. What are your salary expectations?
+As of now, I haven’t thought much about it. I’m more focused on learning the requirements 
+for this position that I am applying for.
+Q12. What motivates you to do good job?
+Responsibility towards work motivates me the most, and my aim within any company is to 
+move up to greater levels of responsibility to achieve each goal with better responsibilities.
+Q13. Would you lie for the company?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+It totally depends upon the situation. If lying is the last option to tackle the situation for my 
+company I have to do it but only if it is the last, otherwise I will use my creativity to deal with 
+the situation because in life we always have the second option. We just need to find it and 
+make it count.
+Q14. On a scale of one to ten, rate me as an interviewer.
+Sir/Mam, I do not have the audacity to rate a highly qualifies person like you. However, if you 
+must insist, I would give you a 10 because I am really grateful that you gave me the 
+opportunity to sit for thisinterview. This has been a really pleasant experience for me because 
+you listened to whatever I said with patience and it is a huge thing for me. Thank you so much.
+Q15. Do you have any questions for me?
+Thanks sir for giving me this opportunity to ask you a question.
+I want to know more about this job profile, and if anything I can learn/improve which can 
+benefit the company.
+Q16. Are not you overqualified for this position?
+No sir/madam, I don't think I am overqualified for this job, in my opinion, qualification does 
+not come with theoretical knowledge and experience makes you more qualified because 
+analyzing the situation in real time makes us more prominent.And when it comes to 
+knowledge learning never ends.
+17. What is the difference between hard work and smart work?
+HARD WORK : GIVES EXPERIENCE.
+SMART WORK : COMES FROM EXPERIENCE.
+What is the difference between confidence and over confidence?
+" I can do it "- confidence, " Only I can do it "- overconfidence.
+" I am suitable for this job "- confidence, " I am the only one suitable for this job "-
+overconfidence.
+" Trusting yourself "- confidence, " Underestimating others "- overconfidence.
+A person is confident when he know the fact better, A person is overconfident when he know 
+the facts better than others.
+Q18.If you won $20 million lottery, would you still work?
+Yes! Money does not give us experience but work does. And this money will be over one day 
+but our experience of doing work is not.
+If I got $10 million lottery then ill save it for business in future. Firstly, I'll get all the skills, 
+knowledge, business strategies and marketing form doing a job in reputed company like yours. 
+After getting all skills then I'll be thinking about business.
+Q19. What are your career options right now?
+As a fresh candidate my career option right now is to gain knowledge and earn experience 
+from new new challenges and to upgrade myself according.
+Q20 .What are your outside interests?
+I love travelling because it creates an opportunity to meet new people. So, I wish to travel.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Q21. Being an ECE/Mechanical/Electrical/Civil students why do u want to Join Software 
+Industry?
+Although I belong to an Electrical/Mechanical/Electronics background over the course of four 
+years I have discovered a strong passion for coding and would like to work in the same field 
+since one should do the work they enjoy. Moreover here, us saying we have passion is not 
+enough we must justify the answer by letting them know about the particular fields/languages 
+we have developed our passion in and do not be scared if they ask you a few questions about 
+it just to confirm what you are saying is accurate . So don’t even try to bluff with the word 
+“passion for coding”
+About TCS:
+Founded : 1968, 51 years ago
+Headquarters: Mumbai, Maharashtra, India
+Founder: Tata Sons, FC Kohli
+Number of Employees: 424,285
+Revenue : US$20.9 billion
+Services : OutSourcing ,Consulting ,Managed Services.
+ELECTRONICS ENGINEERING QUESTIONS for SOFTWARE COMPANIES:
+Questions: What is Microcontroller and Microprocessor? Name a microcontroller and a 
+microprocessor?
+Microcontroller
+They are a whole complete system in themselves (maybe sometimes specific Operating 
+System too). They consist of Processing Unit, RAM, ROM, other external peripherals.
+They generally have Harvard Architecture.
+The processing speed is comparatively slow.
+The addresses in programming are placed outside the IC.
+Examples: Arduino, 8051.
+Microprocessor:
+They only consist of the Processing Unit. They don't have peripherals included in them.
+They generally have Von Neumann Architecture.
+The processing speed is comparatively faster.
+The addresses in programming have their own space.
+Example: Raspberry Pi.
+Q1. Explain Am And Fm.
+AM-Amplitude modulation is a type of modulation where the amplitude of the carrier signal 
+is varied in accordance with the information bearing signal. FM-Frequency modulation is a 
+type of modulation where the frequency of the carrier signal is varied in accordance with the 
+information bearing signal.
+Q2. Name The Modulation Techniques.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+For Analog modulation–AM, SSB, FM, PM and SM .
+Digital modulation–OOK, FSK, ASK, Psk, QAM, MSK,CPM, PPM, TCM, OFDM.
+Q3. What Is Demodulation?
+Demodulation is the act of removing the modulation from an analog signal to get the original 
+baseband signal back. Demodulating is necessary because the receiver system receives a 
+modulated signal with specific characteristics and it needs to turn it to base-band.
+Q4. What Is Cut-off Frequency?
+The frequency at which the response is --3dB with respect to the maximum response.
+Q5. What Is Op--amp?
+An operational amplifier, often called an op--amp , is a DCcoupled high -gain electronic voltage 
+amplifier with differential inputs and, usually, a single output. Typically the output of the 
+op-amp is controlled either by negative feedback, which largely determines the magnitude of its 
+output voltage gain, or by positive feedback, which facilitates regenerative gain and oscillation.
+Q6. What Is Transistor?
+In electronics, a transistor is a semiconductor device commonly used to amplify or switch 
+electronic signals. The transistor is the fundamental building block of computers, and all other 
+modernelectronic devices. Some transistors are packaged individually but most are found in 
+integrated circuits.
+Q7. What Is Diode?
+In electronics, a diode is a two-terminal device. Diodes have two active electrodes between 
+which the signal of interest may flow, and most are used for their unidirectional current 
+property.
+Q8. What Is A Semi Conductor?
+A semiconductor is a solid material that has electrical conductivityin between that of a 
+conductor and that of an insulator(AnInsulator is a material that resists the flow of electric 
+current. It is an object intended to support or separate electrical conductorswithout passing 
+current through itself); it can vary over that wide range either permanently or dynamically.
+Q9. What Is Conductor?
+A substance, body, or device that readily conducts heat, electricity, sound, etc. Copper is a good 
+conductor of electricity.
+Q10. What Is Inductor?
+An inductor is a passive electrical device employed in electrical circuits for its property of 
+inductance. An inductor can take many forms.
+Q11. What Is Capacitor?
+A capacitor is an electrical/electronic device that can store energyin the electric field between a 
+pair of conductors (called “plates”). The process of storing energy in the capacitor is known as 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+“charging”, and involves electric charges of equal magnitude, but opposite polarity, building up 
+on each plate. 
+Capacitors are often used in electric and electronic circuits asenergy-storage devices. They can 
+also be used to differentiate between high-frequency and low-frequency signals. This property 
+makes them useful in electronic filters.
+Q12. What Is A Rectifier?
+A rectifier changes alternating current into direct current. This process is called rectification. 
+The three main types of rectifier are the half-wave, full-wave, and bridge. A rectifier is the 
+opposite of an inverter, which changes direct current into alternating current. HWR- The 
+simplest type is the half-wave rectifier, which can be made with just one diode. When the
+voltage of the alternating current is positive, the diode becomes forwardbiased and current 
+flows through it. When the voltage is negative, the diode is reverse-biased and the current 
+stops.
+Q13. What Is An Integrated Circuit?
+An integrated circuit (IC), also called a microchip, is an electronic circuit etched onto a silicon 
+chip. Their main advantages are low cost, low power, high performance, and very small size.
+Q14. What Is Oscillator?
+An oscillator is a circuit that creates a waveform output from a direct current input. The two 
+main types of oscillator are harmonic and relaxation. The harmonic oscillators have smooth 
+curved waveforms, while relaxation oscillators have waveforms with sharp changes.
+Q15. What Is A Feedback? And Explain Different Types Of Feedback.
+Feedback is a process whereby some proportion of the output signal of a system is passed (fed 
+back) to the input. This is often used to control the dynamic behaviour of the system.
+Types of feedback:
+Negative feedback: This tends to reduce output (but in amplifiers, stabilizes and linearizes 
+operation). Negative feedback feeds part of a system’s output, inverted, into the system’s 
+input; generally with the result that fluctuations are attenuated.
+Positive feedback: This tends to increase output. Positive feedback, sometimes referred to as 
+“cumulative causation”, is a feedback loop system in which the system responds to 
+perturbation (Aperturbation means a system, is an alteration of function, induced by external or 
+internal mechanisms) in the same direction as the perturbation. In contrast, a system that 
+responds to the perturbation in the opposite direction is called a negative feedback system. 
+Bipolar feedback: which can either increase or decrease output.
+Q16. Explain Full Duplex And Half Duplex.
+Full duplex refers to the transmission of data in two directions simultaneously. For example, a 
+telephone is a full-duplex devicebecause both parties can talk at once. In contrast, a 
+walkie-talkie is ahalf-duplex device because only one party can transmit at a time. Most 
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+modems have a switch that lets you choose between full-duplex and half-duplex modes. The 
+choice depends on whichcommunications program you are running.
+In full-duplex mode, data you transmit does not appear on yourscreen until it has been received 
+and sent back by the other party. This enables you to validate that the data has been accurately 
+transmitted. If your display screen shows two of each character, it probably means that your 
+modem is set to half-duplex mode when it should be in full-duplex mode.
+Q17. What Is Barkhausen Criteria?
+Barkhausen criteria, without which you will not know which conditions, are to be satisfied for 
+oscillations. 
+“Oscillations will not be sustained if, at the oscillator frequency, the magnitude of the product 
+of the transfer gain of the amplifier and the magnitude of the feedback factor of the feedback 
+network ( the magnitude of the loop gain ) are less than unity”.
+The condition of unity loop gain ­Aβ = 1 is called the Barkhausencriterion. This condition implies 
+that | Aβ|= 1and that the phase of – Aβ is zero.
+Q18. What Is An Amplifier?
+An electronic device or electrical circuit that is used to boost (amplify) the power, voltage or 
+current of an applied signal.
+Q19. What Is Cdma, Tdma, Fdma?
+Code division multiple access (CDMA) is a channel access methodutilized by various radio 
+communication technologies. CDMA employsspread-spectrum technology and a special coding 
+scheme (where each transmitter is assigned a code) to allow multiple users to be multiplexed 
+over the same physical channel. By contrast, time division multiple access (TDMA) divides 
+access by time, whilefrequency-division multiple access (FDMA) divides it byfrequency.
+An analogy to the problem of multiple access is a room (channel) in which people wish to 
+communicate with each other. To avoid confusion, people could take turns speaking (time 
+division), speak at different pitches (frequency division), or speak in different directions (spatial 
+division). 
+In CDMA, they would speak different languages. People speaking the same language can 
+understand each other, but not other people. Similarly, in radio CDMA, each group of users is 
+given a shared code. Many codes occupy the same channel, but only users associated with a 
+particular code can understand each other.
+Q20. What Is Multiplexing?
+Multiplexing (known as muxing) is a term used to refer to a processwhere multiple analog
+message signals or digital data streams are combined into one signal over a shared medium. 
+The aim is to share an expensive resource. For example, in telecommunications, several phone 
+calls may be transferred using one wire.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Q21. What Is A Repeater?
+A repeater is an electronic device that receives a signal and retransmits it at a higher level 
+and/or higher power, or onto the other side of an obstruction, so that the signal can cover 
+longer distances without degradation.
+Q22. Difference Between Electronic And Electrical.
+Electronics work on DC and with a voltage range of -48vDC to +48vDC. If the electronic device is 
+plugged into a standard wall outlet, there will be a transformer inside which will convert the AC 
+voltage you are supplying to the required DC voltage needed by the device.
+Examples: Computer, radio, T.V, etc… 
+Electric devices use line voltage (120vAC, 240vAC, etc…).Electric devices can also be designed to 
+operate on DC sources, but will be at DC voltages above 48v.
+Examples: incandescent lights, heaters, fridge, stove, etc…
+Read About Sampling theorem,Base station, Antenna, 3G/4G/5G.
+MECHNAICAL BRANCH INTERVIEW QUESTIONS:
+Q1. What Is Extrued Aluminum?
+Extrusion is the process where a metal or a metal bar is pulled through a mandrel to elongate it 
+and/or give it a final shape.
+Extruded Aluminum is a common form of making small aluminum wire, bars or beams and many 
+varieties of small non-structural, decorative pieces.
+Q2. What Is The Mechanical Advantage Of A Double Pulley?
+It only takes half the effort to move an object but twice the distance.
+Q3. What Is Knurling?
+Knurling is a machining process normally carried our on a centre lathe. The act of Knurling 
+creates a raised criss-cross pattern on a smooth round bar that could be used as a handle or 
+something that requires extra grip.
+Q4. How Does Hydraulic Clutches Work?
+By using a non-compressible fluid, it acts like a solid push rod.
+Q5. Why Is Over-pressurizing An Air Conditioning System Bad?
+Overcharging a refrigeration or air conditioning system can result in an explosion. To avoid 
+serious injury or death, never overcharge the system. Always use proper charging techniques. 
+Limit charge amounts to those specified on the system equipment serial label or in the original 
+equipment manufacturer's service information.
+Overcharging the system immerses the compressor motor, piston, connecting rods, and 
+cylinders in liquid refrigerant. This creates a hydraulic block preventing the compressor from 
+starting. The hydraulic block is also known as locked rotor.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Continued supply of electricity to the system causes heat to build in the compressor. This heat 
+will eventually vaporize the refrigerant and rapidly increase system pressure. If, for any reason, 
+the thermal protector fails to open the electrical circuit, system pressure can raise to high 
+enough levels to cause a compressor-housing explosion.
+Q6. Will A Steel Cable Become Longer If It Is Heated While Under Load?
+Even the heaviest steel cables stretch under load, whether they heat or not. Heating the cable 
+will certainly elongate it. Friction caused by guides or pulleys can greatly increase the 
+temperature of a cable under load.
+You might consider the possibility of total failure if the heat is high enough and I am not sure 
+but the cable might act in unpredictable ways when it fails. Applying heat to a steel cable under 
+load is probably dangerous to your health and the health of anyone nearby.
+When steel is heated, steel expands. It does not need to be under load. That is the reason that 
+in the old days before advanced electronics and optics surveyors used chains rather than cables 
+for measuring land. Had they used cable they would have gotten different measurements in 
+summer and winter based on the difference in temperature and the coefficient of expansion of 
+the material. The coefficient of expansion is a number that informs just how much a given 
+material will expand or contract for a given change in temperature.
+To find the coefficient of expansion and other interesting information consult a materials 
+handbook, available in better libraries or your local college of engineering. Another example of 
+expanding steel and the necessity for dealing with this characteristic is the overlapping slip joint 
+found on bridges that allows horizontal structural members to expand and contract without 
+damaging the bridge.
+Q7. What Is The Congressional Space Medal Of Honor?
+The medal was created in 1969, designed by Congress for "any astronaut who in the 
+performance of his duties has distinguished himself by exceptionally meritorious efforts and 
+contributions to the welfare of the Nation and mankind.
+Q8. What Is The Law Of Thermodynamics?
+There are actually 3 Laws of Thermodynamics (the actual number is debatable, but the number 
+ranges from 3-5, depending on your adding skills).
+Q9. Is It The Stress That, Produces Strain Or Strain Produces Stress?
+A Force applied to an object will cause a displacement. Strain is effectively a measure of this 
+displacement (change in length divided by original length).
+Stress is the Force applied divided by the area it is applied. (E.g. pounds per square inch)
+Therefore, to answer the question, the applied force produces both “Stress and Strain”. “Stress 
+and Strain” are linked together by various material properties such as Poisson's ratio and 
+Young's Modulus.
+Q10.. How Does A Super Charger Work In A Car?
+A supercharger is a used to increase the volume of air dragged into each cylinder per stroke.
+In combustion engines, there are only really two ways to increase power, firstly increase the 
+amount of fuel in the engine (either increase the displacement, or add more cylinders) or 
+increase the amount of air in the engine (for a more effective explosion of the fuel)
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Superchargers are powered by the engines crankshaft, which is connected usually by a belt 
+drive. This rotational power turns a fan, which sucks air into the intake manifold similar in effect 
+to turbochargers, with reduced lag. However, superchargers take more energy out the engine, 
+so swings and roundabouts.
+Q11. Why Do The Radiators In Your House Click When You Start The Heating System?
+They are clicking because they are heating up. The heat causes expansion and that is why you 
+hear clicking.
+Q12. How Can I See Where Pipes Are Behind The Wall?
+By using radio waves.
+Q13. How Are The Pneumatic System And The Hydraulic System Similar?
+Pneumatics use gases such as air or nitrogen, hydraulics use oil or water, both systems use 
+pressure to act on a specific application.
+Q14. What Is The Difference Between An Electric Motor And An Electric Generator?
+There is no fundamental difference between an electric motor and an electric generator or 
+dynamo. In normal use, all motors behave as generators, and all generators behave as motors. 
+DC Motors act like generators because they use less electrical energy when allowed to spin fast. 
+DC generators act like motors because they become easier to spin when less electrical energy is
+drawn from their terminals.
+For example, connect two small DC magnet motors together. Then if you spin the shaft of the 
+first motor, the second motor's shaft will start spinning too. One acts as a DC generator, and the 
+other acts as a DC motor. Alternatively, spin the second one's shaft, and the first one will start 
+spinning.
+Another example: If you connect a small DC motor to a small battery, then an electric current 
+will appear in the motor's coils, and the motor starts spinning. However, if you spin the motor's 
+shaft slightly faster than the normal speed, the direction of current in the circuit will reverse, 
+and the battery starts taking in energy from the motor. The motor has become a generator, and 
+it is recharging the battery.
+Question 15. What Are Some Examples Of A Periscope?
+It is an optical instrument for viewing objects, which are above the level of direct sight; mostly 
+used in submarines.
+Maintenance, repair and operations (MRO)
+Q16. What Does Green Field Project Mean?
+Green field projects are those projects, which do not create any environmental nuisance 
+(pollution), follows environmental management system and EIA (environment impact 
+assessment). These projects are usually of big magnitude.
+Q17.is Pipe Round Because It Provides The Least Area To Volume Ratio?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+More likely because it is easier to manufacture, much easier to put threads on, you do not have 
+to worry about orientation when you put them together, and they have no weak spots created 
+by corners.
+My gutter pipes are rectangular because they do not stick out as far from the house as a circular 
+one with the same area. However, they are low enough in the pressure they contain that they 
+can be formed from sheet metal with a crimped seam. Making a water supply pipe, that way 
+would be impossible.
+In addition, it is easy to keep them aligned to the house. Running a rectangular water main 
+under a street would be a major pain.
+Solar Water Pumps Interview Questions
+Q18.How Does Hydraulics Work?
+A positive displacement pump (gear, vane, or piston pump) is driven by a prime mover 
+(Electrical Motor or Engine) it sucks fluid from reservoir and delivers oil to system. During 
+loading, a resistance to flow creates the pressure, which is utilized to do the work through 
+cylinder for linear motion, or through hydraulic motor for rotary motion, Direction of flow is 
+changed with help of direction control valve & system pressure is regulated by pressure control 
+valve & flow is regulated by flow control valve.
+Q19.What Is The Difference Between Hydraulic Oil And Engine Oil?
+Both the hydraulic and engine oils are made from base oils with additives mixed in. The 
+additives used change the characteristics of the oils so that they function differently.
+Generally, hydraulic oils (final product including additives) are expected to have very low 
+compressibility and very predictable friction and viscosity stability under pressure.
+Generally engine oils (Engine Lubrication Oils anyway) are intended to have high resistance to 
+heat (degradation including chemical and viscosity due to heat) resistance to burning and 
+resistance to absorption of fuels and chemical compounds produced during combustion.
+Both classes of oils are likely to have additives intended to provide detergency and to reduce 
+foaming.
+Base oils are most commonly petroleum oil bases due to cost, but other bases oil can be used 
+including mineral oils (especially for hydraulic oils) and plant oils (especially for engine oils) and 
+oils from animal sources.
+Q20.What Does Angular Momentum Mean?
+Angular momentum is an expression of an objects mass and rotational speed.
+Momentum is the velocity of an object times it is mass, or how fast something is moving how 
+much it weigh. Therefore, angular momentum is the objects mass times the angular velocity 
+where angular velocity is how fast something is rotating expressed in terms like revolutions per 
+minute or radians per second or degrees per second
+Note : Read About 2stroke/4Stroke and all.
+ELECTRICAL ENGINEERING QUESTIONS:
+Q1.What Is The Difference Between A Verilog Task And A Verilog Function?
+The following rules distinguish tasks from functions:
+A function shall execute in one simulation time unit; a task can contain time-controlling 
+statements.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+A function cannot enable a task; a task can enable other tasks or functions.
+A function shall have at least one input type argument and shall not have an output or inout 
+type argument;a task can have zero or more arguments of any type.
+A function shall return a single value; a task shall not return a value.
+Q2. What Is Electric Traction?
+Electric traction means using the electric power for traction system (i.e. for railways,trams, 
+trolleys etc).
+Electric traction means use of the electricity for railways,trams, trolleys etc. Now a days, 
+magnetic traction is also used for bullet trains.and basically dc motors are used for electric 
+traction systems.
+Q3.What Is “pu” In Electrical Engineering?
+Pu stands for per unit and this will be used in single line diagram of power distribution and it is 
+like a huge electrical circuit with no of components (generators, transformers, loads) with 
+different ratings (in MVA and KV). To bring all the ratings into common platform we use pu 
+concept in which, in general largest MVA and KV ratings of the component is considered as base 
+values, then all other component ratings will get back into this basis.Those values are called as 
+pu values.
+Q4.Why Link Is Provided In Neutral Of An Ac Circuit And Fuse In Phase Of Ac Circuit?
+Link is provided at a Neutral common point in the circuit from which various connection are 
+taken for the individual control circuit and so it is given in a link form to withstand high Amps. 
+But in the case of Fuse in the Phase of AC circuit it is designed such that the fuse rating is 
+calculated for the particular circuit (i.e load) only.So if any malfunction happen the fuse 
+connected in the particular control circuit alone will blow off.
+Q5. How Tube Light Circuit Is Connected And How It Works?
+A choke is connected in one end of the tube light and a starter is in series with the circuit. When 
+supply is provided ,the starter will interrupt the supply cycle of AC. Due to the sudden change of 
+supply the chock will generate around 1000volts . This volt will capable of to break the electrons 
+inside the tube to make electron flow. once the current passes through the tube the starter 
+circuit will be out of part. now there is no change of supply causes choke voltage normalized 
+and act as minimize the current.
+Q6.What Is Marx Circuit?
+It is used with generators for charging a number of capacitor in parallel and discharging them in 
+series.It is used when voltage required for testing is higher than the available
+Q7. What Are The Advantages Of Speed Control Using Thyristor?
+Advantages :
+Fast Switching Characterstics than Mosfet, BJT, IGBT.
+Low cost.
+Higher Accurate.
+Q8.Why Human Body Feel Electric Shock ?? N In An electric Train During Running , We Did Nt 
+Feel Any shock ? Why?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Unfortunately our body is a pretty good conductor of electricity, The golden rule is Current 
+takes the lowest resistant path if you have insulation to our feet as the circuit is not complete 
+(wearing rubber footwear which doing some repairs is advisable as our footwear is a high 
+resistance path not much current flows through our body).The electric train is well insulated 
+from its electrical system.
+Q9. What Is The Principle Of Motor?
+Whenever a current carrying conductor is placed in an magnetic field it produce turning or 
+twisting movemnt is called as torque.
+Q10. Why, When Birds Sit On Transmission Lines Or Current Wires Doesn’t Get Shock?
+Its true that if birds touch the single one line (phase or neutral) they don’t get electrical shock… 
+if birds touch 2 lines than the circuit is closed and they get electrical shock.. so if a human touch 
+single one line(phase) then he doesn’t get shock if he is in the air (not touching – standing on 
+the ground if he is standing on the ground then touching the line (phase) he will get a shock 
+because the ground on what we standing is like line (ground bed – like neutral)? and in the 
+most of electric lines the neutral is grounded..so that means that human who touch the line 
+closes the circuit between phase and neutral.
+Q11.What Happen If We Give 220 Volts Dc Supply To D Bulb R Tube Light?
+Bulbs [devices] for AC are designed to operate such that it offers high impedance to AC supply. 
+Normally they have low resistance. When DC supply is applied, due to low resistance, the 
+current through lamp would be so high that it may damage the bulb element.
+Q12. Which Motor Has High Starting Torque And Staring Current Dc Motor, Induction Motor 
+Or Synchronous Motor?
+DC Series motor has high starting torque. We can not start the Induction motor and 
+Synchronous motors on load, but can not start the DC series motor without load.
+Q13.What Is Acsr Cable And Where We Use It?
+ACSR means Aluminium conductor steel reinforced, this conductor is used in transmission & 
+distribution.
+Q14. What Will Happen When Power Factor Is Leading In Distribution Of Power?
+If their is high power factor, i.e if the power factor is close to one:
+losses in form of heat will be reduced,
+cable becomes less bulky and easy to carry, and very cheap to afford, &
+it also reduces over heating of tranformers.
+Q15. What Is The One Main Difference Between Ups & Inverter ? And Electrical Engineering & 
+Electronics Engineering ?
+uninterrupt power supply is mainly use for short time .means according to ups VA it gives 
+backup.
+ups is also two types :
+on line.
+offline.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+online ups having high volt and amp for long time backup with with high dc voltage.but ups 
+start with 2v dc with 7 amp. but inverter is startwith 2v,24,dc to 36v dc and 20amp to 80amp 
+battery with long time backup.
+Q16. What Is 2 Phase Motor?
+A two phase motor is a motor with the the starting winding and the running winding have a 
+phase split.
+e.g;ac servo motor.where the auxiliary winding and the control winding have a phase split of 90 
+degree
+Q17. What Is Power Factor? Whether It Should Be High Or Low? Why?
+Power factor should be high in order to get smooth operation of the system.Low power factor 
+means losses will be more.it is the ratio of true power to apparent power. it has to be ideally 1. 
+if it is too low then cable over heating & equipment overloading will occur.
+if it is greater than 1 then load will act as capacitor and starts feeding the source and will cause 
+tripping.(if pf is poor ex: 0.17 to meet actual power load has to draw more current(V 
+constant),result in more losses if pf is good.
+ex: 0.95 to meet actual power load has to draw less current(V constant),result in less losses).
+Q18. There Are A Transformer And An Induction Machine. Those Two Have The Same Supply. 
+For Which Device The Load Current Will Be Maximum? And Why?
+The motor has max load current compare to that of transformer because the motor consumes 
+real power.. and the transformer is only producing the working flux and its not consuming.. 
+hence the load current in the transformer is because of core loss so it is minimum.
+Q19. Explain The Working Principal Of The Circuit Breaker?
+Circuit Breaker is one which makes or breaks the circuit.It has two contacts namely fixed 
+contact & moving contact.under normal condition the moving contact comes in contact with 
+fixed contact thereby forming the closed contact for the flow of current. During abnormal & 
+faulty conditions(when current exceeds the rated value) an arc is produced between the fixed & 
+moving contacts & thereby it forms the open circuitArc is extinguished by the Arc Quenching 
+media like air, oil, vaccum etc
+Q20. How Many Types Of Colling System It Transformers?
+ONAN (oil natural,air natural).
+ONAF (oil natural,air forced).
+OFAF (oil forced,air forced).
+ODWF (oil direct,water forced).
+OFAN (oil forced,air forced).
+Q21.What Is Stepper Motor.what Is Its Uses?
+Stepper motor is the electrical machine which act upon input pulse applied to it. it is one type 
+of synchronous motor which runs in steps in either direction instead of running in complete 
+cycle.so, in automation parts it is used.
+Q22. Why The Capacitors Works On Ac Only?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Generally capacitor gives infinite resistance to dc components(i.e., block the dc components). it 
+allows the ac components to pass through.
+Q23. What Happens If I Connect A Capacitor To A Generator Load?
+Connecting a capacitor across a generator always improves power factor,but it will help 
+depends up on the engine capacity of the alternator,other wise the alternator will be over 
+loaded due to the extra watts consumed due to the improvement on pf. Secondly, don’t 
+connect a capacitor across an alternator while it is picking up or without any other load.
+Q24. What Is The Difference Between Surge Arrestor And Lightning Arrestor?
+LA is installed outside and the effect of lightning is grounded,where as surge arrestor installed 
+inside panels comprising of resistors which consumes the energy and nullify the effect of surge.
+Q25. Why Use The Vcb At High Transmission System ? Why Can’t Use Acb?
+Actually the thing is vacuum has high arc queching property compare to air because in VCB ,the 
+die electric strengths equal to 8 times of air . That is y always vaccum used as in HT breaker and 
+air used as in LT .
+Q26. Difference Between A Four Point Starter And Three Point Starter?
+The shunt connection in four point stater is provided separately form the line where as in three 
+point stater it is connected with line which is the drawback in three point stater.
+OPERATING SYSTEM QUESTIONS:
+1) Explain the main purpose of an operating system?
+Operating systems exist for two main purposes. One is that it is designed to make sure a 
+computer system performs well by managing its computational activities. Another is that it 
+provides an environment for the development and execution of programs.
+2) What is demand paging?
+Demand paging is referred when not all of a process’s pages are in the RAM, then the OS brings 
+the missing(and required) pages from the disk into the RAM.
+3) What are the advantages of a multiprocessor system?
+With an increased number of processors, there is a considerable increase in throughput. It can 
+also save more money because they can share resources. Finally, overall reliability is increased 
+as well.
+4) What is kernel?
+A kernel is the core of every operating system. It connects applications to the actual processing 
+of data. It also manages all communications between software and hardware components to 
+ensure usability and reliability.
+5) What are real-time systems?
+Real-time systems are used when rigid time requirements have been placed on the operation of 
+a processor. It has well defined and fixed time constraints.
+6) What is a virtual memory?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Virtual memory is a memory management technique for letting processes execute outside of 
+memory. This is very useful especially is an executing program cannot fit in the physical 
+memory.
+7) Describe the objective of multiprogramming.
+The main objective of multiprogramming is to have a process running at all times. With this 
+design, CPU utilization is said to be maximized.
+8 ) What is time- sharing system?
+In a Time-sharing system, the CPU executes multiple jobs by switching among them, also known 
+as multitasking. This process happens so fast that users can interact with each program while it 
+is running.
+9) What is SMP?
+SMP is a short form of Symmetric Multi-Processing. It is the most common type of multipleprocessor systems. In this system, each processor runs an identical copy of the operating 
+system, and these copies communicate with one another as needed.
+10) How are server systems classified?
+Server systems can be classified as either computer-server systems or file server systems. In the 
+first case, an interface is made available for clients to send requests to perform an action. In the 
+second case, provisions are available for clients to create, access and update files.
+11) What is asymmetric clustering?
+In asymmetric clustering, a machine is in a state known as hot standby mode where it does 
+nothing but to monitor the active server. That machine takes the active server’s role should the 
+server fails.
+12) What is a thread?
+A thread is a basic unit of CPU utilization. In general, a thread is composed of a thread ID, 
+program counter, register set, and the stack.
+13) Give some benefits of multithreaded programming.
+– there is increased responsiveness to the user
+– resource sharing within the process
+– economy
+– utilization of multiprocessing architecture
+14) Briefly explain FCFS.
+FCFS stands for First-come, first-served. It is one type of scheduling algorithm. In this scheme, 
+the process that requests the CPU first is allocated the CPU first. Implementation is managed by 
+a FIFO queue.
+15) What is RR scheduling algorithm?
+RR (round-robin) scheduling algorithm is primarily aimed for time-sharing systems. A circular 
+queue is a setup in such a way that the CPU scheduler goes around that queue, allocating CPU 
+to each process for a time interval of up to around 10 to 100 milliseconds.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+16) What are necessary conditions which can lead to a deadlock situation in a system?
+Deadlock situations occur when four conditions occur simultaneously in a system: Mutual 
+exclusion; Hold and Wait; No preemption; and Circular wait.
+17) Enumerate the different RAID levels.
+RAID 0 – Non-redundant striping
+RAID 1 – Mirrored Disks
+RAID 2 – Memory-style error-correcting codes
+RAID 3 – Bit-interleaved Parity
+RAID 4 – Block-interleaved Parity
+RAID 5 – Block-interleaved distributed Parity
+RAID 6 – P+Q Redundancy
+18) Describe Banker’s algorithm
+Banker’s algorithm is one form of deadlock-avoidance in a system. It gets its name from a 
+banking system wherein the bank never allocates available cash in such a way that it can no 
+longer satisfy the needs of all of its customers.
+19) What factors determine whether a detection-algorithm must be utilized in a deadlock 
+avoidance system?
+One is that it depends on how often a deadlock is likely to occur under the implementation of 
+this algorithm. The other has to do with how many processes will be affected by deadlock when 
+this algorithm is applied.
+20) State the main difference between logical from physical address space.
+Logical address refers to the address that is generated by the CPU. On the other hand, physical 
+address refers to the address that is seen by the memory unit.
+21) How does dynamic loading aid in better memory space utilization?
+With dynamic loading, a routine is not loaded until it is called. This method is especially useful 
+when large amounts of code are needed in order to handle infrequently occurring cases such as 
+error routines.
+22) What are overlays?
+Overlays are used to enable a process to be larger than the amount of memory allocated to it. 
+The basic idea of this is that only instructions and data that are needed at any given time are 
+kept in memory.
+23) What is the basic function of paging?
+Paging is a memory management scheme that permits the physical address space of a process 
+to be noncontiguous. It avoids the considerable problem of having to fit varied sized memory 
+chunks onto the backing store.
+24) What is fragmentation?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Fragmentation is memory wasted. It can be internal if we are dealing with systems that have 
+fixed-sized allocation units, or external if we are dealing with systems that have variable-sized 
+allocation units.
+25) How does swapping result in better memory management?
+During regular intervals that are set by the operating system, processes can be copied from 
+main memory to a backing store, and then copied back later. Swapping allows more operations 
+to be run that can fit into memory at one time.
+26) Give an example of a Process State.
+– New State – means a process is being created
+– Running – means instructions are being executed
+– Waiting – means a process is waiting for certain conditions or events to occur
+– Ready – means a process is waiting for an instruction from the main processor
+– Terminate – means a process is stopped abruptly
+27) What is a socket?
+A socket provides a connection between two applications. Each endpoint of a communication is 
+a socket.
+28) What is Direct Access Method?
+Direct Access method is based on a disk model of a file, such that it is viewed as a numbered 
+sequence of blocks or records. It allows arbitrary blocks to be read or written. Direct access is 
+advantageous when accessing large amounts of information.
+29) When does thrashing occur?
+Thrashing refers to an instance of high paging activity. This happens when it is spending more 
+time paging instead of executing.
+30) What is the best page size when designing an operating system?
+The best paging size varies from system to system, so there is no single best when it comes to 
+page size. There are different factors to consider in order to come up with a suitable page size, 
+such as page table, paging time, and its effect on the overall efficiency of the operating system.
+31) When designing the file structure for an operating system, what attributes are 
+considered?
+Typically, the different attributes for a file structure are naming, identifier, supported file types, 
+and location for the files, size, and level of protection.
+32) What is root partition?
+Root partition is where the operating system kernel is located. It also contains other potentially 
+important system files that are mounted during boot time.
+33) What are device drivers?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Device drivers provide a standard means of representing I/O devices that maybe manufactured 
+by different companies. This prevents conflicts whenever such devices are incorporated in a 
+systems unit.
+34) What are the primary functions of VFS?
+VFS, or Virtual File System, separate file system generic operations from their implementation 
+by defining a clean VFS interface. It is based on a file-representation structure known as vnode, 
+which contains a numerical designator needed to support network file systems.
+35) What are the different types of CPU registers in a typical operating system design?
+– Accumulators
+– Index Registers
+– Stack Pointer
+– General Purpose Registers
+36) What is the purpose of an I/O status information?
+I/O status information provides information about which I/O devices are to be allocated for a 
+particular process. It also shows which files are opened, and other I/O device state.
+37) What is multitasking?
+Multitasking is the process within an operating system that allows the user to run several 
+applications at the same time. However, only one application is active at a time for user 
+interaction, although some applications can run “behind the scene”.
+38) Explain pros and cons of a command line interface?
+A command line interface allows the user to type in commands that can immediately provide 
+results. Many seasoned computer users are well accustomed to using the command line 
+because they find it quicker and simpler.
+However, the main problem with a command line interface is that users have to be familiar with 
+the commands, including the switches and parameters that come with it. This is a downside for 
+people who are not fond of memorizing commands.
+39) What is caching?
+Caching is the processing of utilizing a region of fast memory for a limited data and process. A 
+cache memory is usually much efficient because of its high access speed.
+40) What is spooling?
+Spooling is normally associated with printing. When different applications want to send an 
+output to the printer at the same time, spooling takes all of these print jobs into a disk file and 
+queues them accordingly to the printer.
+41) What is an Assembler?
+An assembler acts as a translator for low-level language. Assembly codes written using 
+mnemonic commands are translated by the Assembler into machine language.
+42) What are interrupts?
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+Interrupts are part of a hardware mechanism that sends a notification to the CPU when it wants 
+to gain access to a particular resource. An interrupt handler receives this interrupt signal and 
+“tells” the processor to take action based on the interrupt request.
+43) What is GUI?
+GUI is short for Graphical User Interface. It provides users with an interface wherein actions can 
+be performed by interacting with icons and graphical symbols. People find it easier to interact 
+with the computer when in a GUI especially when using the mouse. Instead of having to 
+remember and type commands, users click on buttons to perform a process.
+44) What is preemptive multitasking?
+Preemptive multitasking allows an operating system to switch between software programs. 
+This, in turn, allows multiple programs to run without necessarily taking complete control over 
+the processor and resulting in system crashes.
+45) Why partitioning and formatting is a prerequisite to installing an operating system?
+Partitioning and formatting create a preparatory environment on the drive so that the 
+operating system can be copied and installed properly. This includes allocating space on the
+drive, designating a drive name, determining and creating the appropriate file system and 
+structure.
+46) What is plumbing/piping?
+It is the process of using the output of one program as an input to another. For example, 
+instead of sending the listing of a folder or drive to the main screen, it can be piped and sent to 
+a file, or sent to the printer to produce a hard copy.
+47) What is NOS?
+NOS is short for Network Operating System. It is a specialized software that will allow a 
+computer to communicate with other devices over the network, including file/folder sharing.
+48) Differentiate internal commands from external commands.
+Internal commands are built-in commands that are already part of the operating system. 
+External commands are separate file programs that are stored in a separate folder or directory.
+49) Under DOS, what command will you type when you want to list down the files in a 
+directory, and at the same time pause after every screen output?
+a) dir /w
+b) dir /p
+c) dir /s
+d) dir /w /p
+Answer: d) dir /w /p
+50) How would a file name EXAMPLEFILE.TXT appear when viewed under the DOS command 
+console operating in Windows 98?
+The filename would appear as EXAMPL~1.TXT . The reason behind this is that filenames under 
+this operating system are limited to 8 characters when working under DOS environment.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+51) What is a folder in Ubuntu?
+There is no concept of Folder in Ubuntu. Everything included in your hardware is a FILE.
+52) Explain why Ubuntu is safe and not affected by viruses?
+It does not support malicious e-mails and contents, and before any e-mail is opened by users it 
+will go through many security checks
+Ubuntu uses Linux, which is a super secure O.S system
+Unlike other O.S, countless Linux users can see the code at any time and can fix the problem if 
+there is any
+Malware and viruses are coded to take advantage of the weakness in Windows
+53) Explain what is Unity in Ubuntu? How can you add new entries to the launcher?
+In Ubuntu, Unity is the default graphical shell. On the left side of the Ubuntu, it introduces the 
+launcher and Dash to start programs.
+In order to add new entries to the launcher, you can create a file name like .desktop and then 
+drag the file on the launcher.
+54) Explain the purpose of using a libaio package in Ubuntu?
+Libaio is Linux Kernel Asynchronous I/O (A/O). A/O allows even a single application thread to 
+overlap I/O operations with other processing, by providing an interface for submitting one or 
+more I/O requests in one system call without waiting for completion. And a separate interface 
+to reap completed I/O operations associated with a given completion group.
+55) What is the use of behavior tab in Ubuntu?
+Through behaviors tab, you can make many changes on the appearance of the desktop
+Auto-hide the launcher: You can use this option to reveal the launcher when moving the pointer 
+to the defined hot spot.
+Enable workspaces: By checking this option, you can enable workspace
+Add show desktop icon to the launcher: This option is used to display the desktop icon on the 
+launcher
+56) What is the meaning of “export” command in Ubuntu?
+Export is a command in Bash shell language. When you try to set a variable, it is visible or 
+exported to any subprocess started from that instance of bash. The variable will not exist in the 
+sub-process without the export command.
+57) Explain how you can reset Unity Configuration?
+To reset the unity configuration the simplest way to do is to hit open a Terminal or hit Atl-F2 
+and run the command # unity –reset
+58) Explain how to access Terminal?
+To access terminal, you have to go under Application Menu -> Accessories -> Terminal.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+TIPS & STRATEGIES:
+1. Make Sure you have done some project and you have idea of what you done in 
+your project and what was your role.
+2. Don’t mention in your resume: Microsoft word, Microsoft excel, windows etc.
+3. The more Questions will be asked from your project and the language known.
+4. If you attended some session of Machine learning/Artificial Intelligence/Data 
+Science. Don’t mention that you have a knowledge of this things.
+5. Mechanical/Electrical/Electronics Students has to prepare basics of C 
+programming/Data Structure and just the basics Concept of OOPS.
+6. Mechanical/Electrical/Electronics please cover your basic subject/Core 
+Subjects.
+7. Whatever language you mention in Resume, you need to know About it.
+8. Learn Basics of python Everyone.
+9. All the Very Best for your Interview.
+Programming Questions to be Prepared for Interview:
+• Reverse a String.
+• Reverse a Number.
+• Palindrome.
+• Prime Number.
+• Leap Year.
+• Greatest among 10 numbers.
+• Fibonacci Series.
+• HCF / GCD.
+• Factorial.
+• Decimal to Binary & vice versa
+• Armstrong Number.
+• Area.
+• Swap 2 numbers.
+Prepared by: Ex. TATA EMPLOYEE “PRATIK SHRIVASTAVA”
+COMPREHENSIVE INTERVIEW MATERIAL DESIGNED BY ONLINESTUDY4U
+• Concatenate 2 strings.
+• LCM of Two Number using CLP.
+• Average of Two Numbers.
+• Sum of Digits of a number.
+• Binary to Decimal.
+• Decimal to Binary.
+• Factorial of a Number.
+• Square Root of Prime Number.
+• Square Root without square root.
+• Armstrong Number.
+• Odd-Even Number.
+• Binary to Octal.
+• Decimal to Octal.
+• Check Leap Year.
+• Area of Circle.
+• Checking Palindrome (Number).
+• Area of Triangle.
+• Checking Palindrome (String).
+• Reverse Digits of a Number.
+• Checking Prime or Not.
+• Bubble Sort/Insertion Sort/merge Sort.
+ 

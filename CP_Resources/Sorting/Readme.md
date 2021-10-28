@@ -1,48 +1,42 @@
 # Add here 
-struct Array
+ // C program for implementation of Bubble sort
+#include <stdio.h>
+
+void swap(int *xp, int *yp)
 {
- int A[10];
- int size;
- int length;
-};
-void Display(struct Array arr)
-{
- int i;
- printf("\nElements are\n");
- for(i=0;i<arr.length;i++)
- printf("%d ",arr.A[i]);
+	int temp = *xp;
+	*xp = *yp;
+	*yp = temp;
 }
-struct Array* Merge(struct Array *arr1,struct Array *arr2)
+
+// A function to implement bubble sort
+void bubbleSort(int arr[], int n)
 {
- int i,j,k;
- i=j=k=0;
+int i, j;
+for (i = 0; i < n-1; i++)	
 
- struct Array *arr3=(struct Array *)malloc(sizeof(struct
-Array));
-
- while(i<arr1->length && j<arr2->length)
- {
- if(arr1->A[i]<arr2->A[j])
- arr3->A[k++]=arr1->A[i++];
- else
- arr3->A[k++]=arr2->A[j++];
- }
- for(;i<arr1->length;i++)
- arr3->A[k++]=arr1->A[i];
- for(;j<arr2->length;j++)
- arr3->A[k++]=arr2->A[j];
- arr3->length=arr1->length+arr2->length;
- arr3->size=10;
-
- return arr3;
+	// Last i elements are already in place
+	for (j = 0; j < n-i-1; j++)
+		if (arr[j] > arr[j+1])
+			swap(&arr[j], &arr[j+1]);
 }
+
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+	int i;
+	for (i=0; i < size; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+}
+
+// Driver program to test above functions
 int main()
 {
- struct Array arr1={{2,9,21,28,35},10,5};
- struct Array arr1={{2,3,16,18,28},10,5};
- struct Array *arr3; 
-arr3=Merge(&arr1,&arr2);
-Display(*arr3);
-
-return 0;
+	int arr[] = {64, 34, 25, 12, 22, 11, 90};
+	int n = sizeof(arr)/sizeof(arr[0]);
+	bubbleSort(arr, n);
+	printf("Sorted array: \n");
+	printArray(arr, n);
+	return 0;
 }

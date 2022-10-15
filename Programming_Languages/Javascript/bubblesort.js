@@ -1,18 +1,45 @@
-var numbersToSort = [9, 3, 2, 11];
-function sortItems(array) {
-	let swapped = true;
-	do {
-		swapped = false;
-		for (let j = 0; j < array.length; j++) {
-			if (array[j] > array[j + 1]) {
-				let temp = array[j];
-				array[j] = array[j + 1];
-				array[j + 1] = temp;
-				swapped = true;
-			}
-		}
-	} while (swapped);
-	return array;
+const arr = [6, 5, 1, 3]
+
+
+function bubbleSort(arr) {
+
+
+    let len = arr.length;
+    let swap;
+
+    do {
+        swap = false;
+        for (let j = 0; j < len - 1; j++) {
+            //swap
+
+            if (arr[j] > arr[j + 1]) {
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swap = true;
+            }
+            console.log(j);
+        }
+
+    } while (swap);
+
+    // for (let i = 0; i < len; i++) {
+
+    //     for (let j = 0; j < len - 1; j++) {
+    //         //swap
+
+    //         if (arr[j] > arr[j + 1]) {
+    //             let temp = arr[j];
+    //             arr[j] = arr[j + 1];
+    //             arr[j + 1] = temp;
+    //         }
+    //     }
+
+    // }
+
+    return arr;
+
+
 }
-var sortedList = sortItems(numbersToSort);
-console.log(sortedList);
+
+console.log(bubbleSort(arr))

@@ -1,0 +1,115 @@
+IMPORTANT PATTERN PROBLEMS IN CPP
+#include <iostream>
+using namespace std;
+int main()
+{
+ int rows;
+cout << "Enter number of rows: ";
+ cin >> rows;
+for(int i = rows; i >= 1; --i)
+ {
+ for(int j = 1; j <= i; ++j)
+ {
+ cout << j << " ";
+ }
+ cout << endl;
+ }
+return 0;
+}
+OUTPUT :
+1 2 3 4 5
+1 2 3 4 
+1 2 3
+1 2
+1
+#include <iostream>
+using namespace std;
+int main()
+{
+ int rows;
+cout << "Enter number of rows: ";
+ cin >> rows;
+for(int i = 1; i <= rows; ++i)
+ {
+ for(int j = 1; j <= i; ++j)
+ {
+ cout << j << " ";
+ }
+ cout << "\n";
+ }
+ return 0;
+}
+OUTPUT :
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+#include <iostream>
+using namespace std;
+int main()
+{
+ int rows;
+cout << "Enter number of rows: ";
+ cin >> rows;
+for(int i = rows; i >= 1; --i)
+ {
+ for(int j = 1; j <= i; ++j)
+ {
+ cout << "* ";
+ }
+ cout << endl;
+ }
+ return 0;
+}
+OUTPUT :
+* * * * *
+* * * *
+* * * 
+* *
+*
+#include <iostream>
+using namespace std;
+int main()
+{
+ int rows, number = 1;
+cout << "Enter number of rows: ";
+ cin >> rows;
+for(int i = 1; i <= rows; i++)
+ {
+ for(int j = 1; j <= i; ++j)
+ {
+ cout << number << " ";
+ ++number;
+ }
+cout << endl;
+ }
+return 0;
+}
+OUTPUT :
+1
+2 3
+4 5 6
+7 8 9 10
+include<iostream>
+using namespace std;
+int main()
+{
+char row,col,ch;
+int height;
+cout<<"Enter the height of Triangle=";
+cin>>height; for(row=1;row<=height;row++) { ch='A'; for(col=1;col<=row;col++)
+{
+cout<<ch<<" ";
+ch++;
+}
+cout<<endl;
+}
+return 0;
+}
+OUTPUT :
+A
+AB
+ABC
+ABCD
+ABCDE

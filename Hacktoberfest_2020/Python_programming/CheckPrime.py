@@ -1,6 +1,7 @@
 
 #Check wheter the number is prime or not.
-num = 13
+
+num = int(input("Enter the number which you want to check for prime number = "))
 count=0
 
 for i in range(1, num+1):
@@ -8,17 +9,16 @@ for i in range(1, num+1):
     if num % i  == 0 :
         count=count+1
 
-print(count)
-
 if count != 2:
-        print('Number is not prime')        
+        print(f'{num} is not prime')        
 else:
-            print("Number is prime")
+            print(f"{num} is prime")
         
         
         
 #Another way to check prime number
-num=13
+
+num = int(input("Enter the number which you want to check for prime number = "))
 if num > 1:
     for i in range(1,num//1):
         if (num % i) == 0:

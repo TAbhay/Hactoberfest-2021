@@ -10,10 +10,10 @@ int main ()
    }
 cout<<endl;
 for(i = 0; i<10; i++) {
-   for(j = i+1; j<10; j++)
+   for(j = i+1; j<10; j++) //traversing every two alternate elements simulatenously
    {
       if(a[j] < a[i]) {
-         temp = a[i];
+         temp = a[i]; //swapping and arranging element
          a[i] = a[j];
          a[j] = temp;
       }
@@ -21,7 +21,7 @@ for(i = 0; i<10; i++) {
 }
 cout <<"Sorted Element List ...\n";
 for(i = 0; i<10; i++) {
-   cout <<a[i]<<"\t";
+   cout <<a[i]<<"\t"; //displaying array after sorting
 }
 return 0;
 }

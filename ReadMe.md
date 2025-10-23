@@ -20,7 +20,7 @@ Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `Profile.md` file
 * There are various sections like CP , Development , Interview etc , Add valuable resources
-
+Feel Free to contribute to this repo.
 
 # For Beginners
 1) Visit & Learn 

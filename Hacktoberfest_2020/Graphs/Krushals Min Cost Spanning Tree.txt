@@ -47,7 +47,7 @@ void KruskalsMCST(int A[3][9]){
     int set[V+1] = {-1, -1, -1, -1, -1, -1, -1, -1};  // Array for finding cycle
  
     int i {0};
-    while (i < V-1){
+    while (i <= V-2){
         int min = I;
         int u {0};
         int v {0};

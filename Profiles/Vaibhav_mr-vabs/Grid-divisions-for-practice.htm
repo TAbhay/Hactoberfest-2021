@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Grid Page</title>
+  <style type="text/css" media="all">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .grid-ctn {
+      height: 80%;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: repeat(5, 1fr);
+      background: rgba(1,4,3,0.0);
+      grid-gap: 5px;
+    }
+    
+    .grid-ctn * {
+      text-align: center;
+      border-radius: 10px;
+      transition: 0.8s ease all;
+      /*align-self: center;*/
+    }
+    
+    .grid-ctn *:hover {
+      transform: scale(1.5);
+    }
+    .header {
+      grid-column: 1/4;
+      background: #e1388d;
+    }
+    
+    .nt-one {
+      background: #bf2e5c;
+    }
+    
+    .main-content {
+      grid-column: 2/3;
+      grid-row: 2/4;
+      background: #ffd308f1;
+    }
+    
+    .nt-two {
+      background: #bf2e5c;
+    }
+    .sidebar {
+      grid-row: 3/5;
+      background: #c84078;
+    }
+    
+    .nt-three {
+      background: #00ccff;
+    }
+    
+    .guest-info {
+      grid-column: 2/4;
+      background: #ff7d00;
+    }
+    
+    .footer {
+      grid-column: 1/3;
+      background: #493097;
+    }
+    
+    .social-media {
+      background: #ffd308f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-ctn">
+    <div class="header">
+      <h1>Hello World!</h1>
+    </div>
+    <div class="notice nt-one">
+      <h3>little Notices.</h3>
+    </div>
+    <div class="main-content">
+      <main><p>some kinda Content xD.</p></main>
+    </div>
+    <div class="notice nt-two">
+      <h3>some more Notices.</h3>
+    </div>
+    <div class="sidebar">
+      <h2>Instructions and News.</h2>
+    </div>
+    <div class="notice nt-three">
+      <h3>and again Notice.</h3>
+    </div>
+    <div class="guest-info">
+      <h2>Our hon'able.</h2>
+    </div>
+    <div class="footer">
+      <h4>Credits , Copyrights and Footers.</h4>
+    </div>
+    <div class="social-media">
+      <h6>Social Handles.</h6>
+    </div>
+    
+  </div>
+</body>
+</html>

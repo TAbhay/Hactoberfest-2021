@@ -1,0 +1,79 @@
+
+h3 {
+	padding: 0px;
+	font-size: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	color: #000000;
+}
+
+#container {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+}
+.search{
+	margin: 0 auto;
+	margin-top: -90px;
+	}
+
+
+/*  Styling for Suggestion Box Container  */
+.suggestionsBox {
+	position: absolute;
+	width: 240px;
+	/* background-color: #212427; */
+		background-color: #ffffff;
+	border: 2px solid #000;
+	color: #fff;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#inputString {
+width: 240px;
+padding: 5px;
+font-size: 18px;
+
+}
+
+
+.suggestionList {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*  Individual Search Results  */
+.suggestionList li {
+	margin: 0px 0px 3px 0px;
+	padding: 7px;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	list-style-type: none;
+}
+
+/*  Hover effect  */
+.suggestionList li:hover {
+background-color: #727272;
+font-weight: bold;
+}
+
+a {
+text-decoration:none;
+color:#000000;
+}

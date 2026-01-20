@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: #343434;
+	background: #121212;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 710px;
+	margin: 30px auto;
+	background: #0d0d0d url(images/header.jpg) no-repeat;
+	padding: 55px 25px 25px 25px;
+	border: 12px solid #2e2e2e;
+	position:relative;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0.3em 0;
+	text-indent:-99999px;
+}
+#nav {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 20px 0;
+	background: #2e2e2e url(images/nav_bar.jpg) repeat-x;
+	display: block;
+	overflow: hidden;
+	font-size: 0.9em;
+	height:33px;
+	text-transform:capitalize;
+}
+#nav li {
+	display: inline;
+}
+#nav li a {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+#nav li a:hover {
+	background: #1b1b1b url(images/nav_bar_o.jpg) repeat-x;
+}
+#load {
+	display: none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: url(images/ajax-loader.gif);
+	width: 43px;
+	height: 11px;
+	text-indent: -9999em;
+}
+
+#content {
+}
+h2 {
+	margin: 0;
+	padding: 0.5em 0;
+	color:#568945;
+	font-family:Helvetica, Arial, Sans-serif;
+}
+p {
+	margin: 0;
+	padding: 0.4em 0;
+	color:#686868;
+	line-height:1.4em;
+}
+#content img.right {
+	float: right;
+	margin: 0 0 8px 8px;
+
+}
+#foot {
+	padding: 15px;
+	color: white;
+	text-align: center;
+	margin: 30px 0 0 0;
+	border-top:1px solid #222222;
+}

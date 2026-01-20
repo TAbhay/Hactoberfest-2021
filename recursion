@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+bool prime(int n, int c = 2)
+{
+  if (n == c)
+  {
+    return true;
+  }
+  else
+  {
+    if (n % c == 0)
+      return false;
+    else
+    {
+      //cout << n << " " << c << "\n";
+      return prime(n, c + 1);
+    }
+  }
+}
+
+int main()
+{
+  int n = 4;
+  if (prime(n))
+  {
+    cout << "prime\n";
+  }
+  else
+    cout << "no";
+}

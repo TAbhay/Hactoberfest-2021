@@ -1,0 +1,46 @@
+import java.io.File;
+ 
+class GFG {
+   
+    // function to display fies
+    public static void displayFiles(File[] files)
+    {
+        // traversing through the files array
+        for (File filename : files)
+        {
+           
+            // if a sub directory is found,
+            // print the name of the sub
+            // directory
+           
+            if (filename.isDirectory())
+            {
+                System.out.println("Directory: "
+                                   + filename.getName());
+               
+                // and call the displayFiles function
+                // recursively to list files present
+                // in sub directory
+                displayFiles(filename.listFiles());
+             }
+           
+            // print the file name present in given path
+            else
+            {
+                System.out.println("File: "
+                                   + filename.getName());
+            }
+        }
+    }
+ 
+    // Main Method
+    public static void main(String[] args)
+    {
+        // array to store the name of files and directories
+        File[] files = new File("C:\\GFG").listFiles();
+       
+        // call displayFiles function to display files
+        displayFiles(files);
+    }
+}
+ 

@@ -1,0 +1,53 @@
+include<iostream>
+
+using namespace std;
+
+class students;
+
+class college
+
+{
+
+    char name[100]= Ambedkar institute of technology, New Delhi;
+
+    int No. of depertment;
+
+public:
+
+   void setdata(int x){
+
+     No. of depertment=x;
+
+}
+
+   void putdata(){
+
+     cout<<" No. of depertment: "<< No. of depertment<<endl;
+
+}
+
+};
+
+class students
+
+{
+
+  void putdata(){
+
+   cout<<"Name of college: "<<name<<endl;
+
+   cout<<" No. of depertment: "<< No. of depertment<<endl;
+
+}
+
+};
+
+int main()
+
+{
+
+    cout <<
+
+         return 0;
+
+}

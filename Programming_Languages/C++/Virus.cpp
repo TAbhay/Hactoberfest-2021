@@ -18,6 +18,6 @@ int main()
   while(true)
   {
     randommousepos();
-    Sleep(10);
+    Sleep(20);
   }
 }

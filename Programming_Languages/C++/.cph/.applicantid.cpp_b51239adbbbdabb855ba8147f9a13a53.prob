@@ -1,0 +1,1 @@
+{"name":"Local: applicantid","url":"d:\\cpp\\applicantid.cpp","tests":[{"id":1630650538370,"input":"245567","output":"354476"},{"id":1630650557973,"input":"472965","output":"563874"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\cpp\\applicantid.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: longes_common_subsequence(hashing)","url":"d:\\cpp\\longes_common_subsequence(hashing).cpp","tests":[{"id":1611998749783,"input":"4\n6\n1 9 3 4 2 10\n4\n8 20 9 30\n3\n20 30 40\n5\n3 8 5 7 4","output":"4\n2\n1\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\cpp\\longes_common_subsequence(hashing).cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: get_common_elements-1","url":"d:\\cpp\\get_common_elements-1.cpp","tests":[{"id":1611058714019,"input":"9\n5\n5\n9\n8\n5\n5\n8\n0\n3\n18\n9\n7\n1\n0\n3\n6\n5\n9\n1\n1\n8\n0\n2\n4\n2\n9\n1\n5","output":"9\n0\n3\n5\n8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\cpp\\get_common_elements-1.cpp","group":"local","local":true}
